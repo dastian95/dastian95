@@ -1,0 +1,1572 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="560" height="165" viewBox="0 0 560 165">
+  <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+  <style>
+    text { fill: #a855f7; font-family: 'Courier New', monospace; font-size: 6.5px; }
+    .frame { visibility: hidden; }
+  </style>
+  <defs>
+    <style>
+    @keyframes f0 { 0%,0.00%{visibility:hidden} 0.01%,1.66%{visibility:visible} 1.67%,100%{visibility:hidden} }
+    @keyframes f1 { 0%,1.67%{visibility:hidden} 1.68%,3.32%{visibility:visible} 3.33%,100%{visibility:hidden} }
+    @keyframes f2 { 0%,3.33%{visibility:hidden} 3.34%,4.99%{visibility:visible} 5.00%,100%{visibility:hidden} }
+    @keyframes f3 { 0%,5.00%{visibility:hidden} 5.01%,6.66%{visibility:visible} 6.67%,100%{visibility:hidden} }
+    @keyframes f4 { 0%,6.67%{visibility:hidden} 6.68%,8.32%{visibility:visible} 8.33%,100%{visibility:hidden} }
+    @keyframes f5 { 0%,8.33%{visibility:hidden} 8.34%,9.99%{visibility:visible} 10.00%,100%{visibility:hidden} }
+    @keyframes f6 { 0%,10.00%{visibility:hidden} 10.01%,11.66%{visibility:visible} 11.67%,100%{visibility:hidden} }
+    @keyframes f7 { 0%,11.67%{visibility:hidden} 11.68%,13.32%{visibility:visible} 13.33%,100%{visibility:hidden} }
+    @keyframes f8 { 0%,13.33%{visibility:hidden} 13.34%,14.99%{visibility:visible} 15.00%,100%{visibility:hidden} }
+    @keyframes f9 { 0%,15.00%{visibility:hidden} 15.01%,16.66%{visibility:visible} 16.67%,100%{visibility:hidden} }
+    @keyframes f10 { 0%,16.67%{visibility:hidden} 16.68%,18.32%{visibility:visible} 18.33%,100%{visibility:hidden} }
+    @keyframes f11 { 0%,18.33%{visibility:hidden} 18.34%,19.99%{visibility:visible} 20.00%,100%{visibility:hidden} }
+    @keyframes f12 { 0%,20.00%{visibility:hidden} 20.01%,21.66%{visibility:visible} 21.67%,100%{visibility:hidden} }
+    @keyframes f13 { 0%,21.67%{visibility:hidden} 21.68%,23.32%{visibility:visible} 23.33%,100%{visibility:hidden} }
+    @keyframes f14 { 0%,23.33%{visibility:hidden} 23.34%,24.99%{visibility:visible} 25.00%,100%{visibility:hidden} }
+    @keyframes f15 { 0%,25.00%{visibility:hidden} 25.01%,26.66%{visibility:visible} 26.67%,100%{visibility:hidden} }
+    @keyframes f16 { 0%,26.67%{visibility:hidden} 26.68%,28.32%{visibility:visible} 28.33%,100%{visibility:hidden} }
+    @keyframes f17 { 0%,28.33%{visibility:hidden} 28.34%,29.99%{visibility:visible} 30.00%,100%{visibility:hidden} }
+    @keyframes f18 { 0%,30.00%{visibility:hidden} 30.01%,31.66%{visibility:visible} 31.67%,100%{visibility:hidden} }
+    @keyframes f19 { 0%,31.67%{visibility:hidden} 31.68%,33.32%{visibility:visible} 33.33%,100%{visibility:hidden} }
+    @keyframes f20 { 0%,33.33%{visibility:hidden} 33.34%,34.99%{visibility:visible} 35.00%,100%{visibility:hidden} }
+    @keyframes f21 { 0%,35.00%{visibility:hidden} 35.01%,36.66%{visibility:visible} 36.67%,100%{visibility:hidden} }
+    @keyframes f22 { 0%,36.67%{visibility:hidden} 36.68%,38.32%{visibility:visible} 38.33%,100%{visibility:hidden} }
+    @keyframes f23 { 0%,38.33%{visibility:hidden} 38.34%,39.99%{visibility:visible} 40.00%,100%{visibility:hidden} }
+    @keyframes f24 { 0%,40.00%{visibility:hidden} 40.01%,41.66%{visibility:visible} 41.67%,100%{visibility:hidden} }
+    @keyframes f25 { 0%,41.67%{visibility:hidden} 41.68%,43.32%{visibility:visible} 43.33%,100%{visibility:hidden} }
+    @keyframes f26 { 0%,43.33%{visibility:hidden} 43.34%,44.99%{visibility:visible} 45.00%,100%{visibility:hidden} }
+    @keyframes f27 { 0%,45.00%{visibility:hidden} 45.01%,46.66%{visibility:visible} 46.67%,100%{visibility:hidden} }
+    @keyframes f28 { 0%,46.67%{visibility:hidden} 46.68%,48.32%{visibility:visible} 48.33%,100%{visibility:hidden} }
+    @keyframes f29 { 0%,48.33%{visibility:hidden} 48.34%,49.99%{visibility:visible} 50.00%,100%{visibility:hidden} }
+    @keyframes f30 { 0%,50.00%{visibility:hidden} 50.01%,51.66%{visibility:visible} 51.67%,100%{visibility:hidden} }
+    @keyframes f31 { 0%,51.67%{visibility:hidden} 51.68%,53.32%{visibility:visible} 53.33%,100%{visibility:hidden} }
+    @keyframes f32 { 0%,53.33%{visibility:hidden} 53.34%,54.99%{visibility:visible} 55.00%,100%{visibility:hidden} }
+    @keyframes f33 { 0%,55.00%{visibility:hidden} 55.01%,56.66%{visibility:visible} 56.67%,100%{visibility:hidden} }
+    @keyframes f34 { 0%,56.67%{visibility:hidden} 56.68%,58.32%{visibility:visible} 58.33%,100%{visibility:hidden} }
+    @keyframes f35 { 0%,58.33%{visibility:hidden} 58.34%,59.99%{visibility:visible} 60.00%,100%{visibility:hidden} }
+    @keyframes f36 { 0%,60.00%{visibility:hidden} 60.01%,61.66%{visibility:visible} 61.67%,100%{visibility:hidden} }
+    @keyframes f37 { 0%,61.67%{visibility:hidden} 61.68%,63.32%{visibility:visible} 63.33%,100%{visibility:hidden} }
+    @keyframes f38 { 0%,63.33%{visibility:hidden} 63.34%,64.99%{visibility:visible} 65.00%,100%{visibility:hidden} }
+    @keyframes f39 { 0%,65.00%{visibility:hidden} 65.01%,66.66%{visibility:visible} 66.67%,100%{visibility:hidden} }
+    @keyframes f40 { 0%,66.67%{visibility:hidden} 66.68%,68.32%{visibility:visible} 68.33%,100%{visibility:hidden} }
+    @keyframes f41 { 0%,68.33%{visibility:hidden} 68.34%,69.99%{visibility:visible} 70.00%,100%{visibility:hidden} }
+    @keyframes f42 { 0%,70.00%{visibility:hidden} 70.01%,71.66%{visibility:visible} 71.67%,100%{visibility:hidden} }
+    @keyframes f43 { 0%,71.67%{visibility:hidden} 71.68%,73.32%{visibility:visible} 73.33%,100%{visibility:hidden} }
+    @keyframes f44 { 0%,73.33%{visibility:hidden} 73.34%,74.99%{visibility:visible} 75.00%,100%{visibility:hidden} }
+    @keyframes f45 { 0%,75.00%{visibility:hidden} 75.01%,76.66%{visibility:visible} 76.67%,100%{visibility:hidden} }
+    @keyframes f46 { 0%,76.67%{visibility:hidden} 76.68%,78.32%{visibility:visible} 78.33%,100%{visibility:hidden} }
+    @keyframes f47 { 0%,78.33%{visibility:hidden} 78.34%,79.99%{visibility:visible} 80.00%,100%{visibility:hidden} }
+    @keyframes f48 { 0%,80.00%{visibility:hidden} 80.01%,81.66%{visibility:visible} 81.67%,100%{visibility:hidden} }
+    @keyframes f49 { 0%,81.67%{visibility:hidden} 81.68%,83.32%{visibility:visible} 83.33%,100%{visibility:hidden} }
+    @keyframes f50 { 0%,83.33%{visibility:hidden} 83.34%,84.99%{visibility:visible} 85.00%,100%{visibility:hidden} }
+    @keyframes f51 { 0%,85.00%{visibility:hidden} 85.01%,86.66%{visibility:visible} 86.67%,100%{visibility:hidden} }
+    @keyframes f52 { 0%,86.67%{visibility:hidden} 86.68%,88.32%{visibility:visible} 88.33%,100%{visibility:hidden} }
+    @keyframes f53 { 0%,88.33%{visibility:hidden} 88.34%,89.99%{visibility:visible} 90.00%,100%{visibility:hidden} }
+    @keyframes f54 { 0%,90.00%{visibility:hidden} 90.01%,91.66%{visibility:visible} 91.67%,100%{visibility:hidden} }
+    @keyframes f55 { 0%,91.67%{visibility:hidden} 91.68%,93.32%{visibility:visible} 93.33%,100%{visibility:hidden} }
+    @keyframes f56 { 0%,93.33%{visibility:hidden} 93.34%,94.99%{visibility:visible} 95.00%,100%{visibility:hidden} }
+    @keyframes f57 { 0%,95.00%{visibility:hidden} 95.01%,96.66%{visibility:visible} 96.67%,100%{visibility:hidden} }
+    @keyframes f58 { 0%,96.67%{visibility:hidden} 96.68%,98.32%{visibility:visible} 98.33%,100%{visibility:hidden} }
+    @keyframes f59 { 0%,98.33%{visibility:hidden} 98.34%,99.99%{visibility:visible} 100.00%,100%{visibility:hidden} }
+    .f0{animation:f0 3s steps(1,end) infinite;}
+    .f1{animation:f1 3s steps(1,end) infinite;}
+    .f2{animation:f2 3s steps(1,end) infinite;}
+    .f3{animation:f3 3s steps(1,end) infinite;}
+    .f4{animation:f4 3s steps(1,end) infinite;}
+    .f5{animation:f5 3s steps(1,end) infinite;}
+    .f6{animation:f6 3s steps(1,end) infinite;}
+    .f7{animation:f7 3s steps(1,end) infinite;}
+    .f8{animation:f8 3s steps(1,end) infinite;}
+    .f9{animation:f9 3s steps(1,end) infinite;}
+    .f10{animation:f10 3s steps(1,end) infinite;}
+    .f11{animation:f11 3s steps(1,end) infinite;}
+    .f12{animation:f12 3s steps(1,end) infinite;}
+    .f13{animation:f13 3s steps(1,end) infinite;}
+    .f14{animation:f14 3s steps(1,end) infinite;}
+    .f15{animation:f15 3s steps(1,end) infinite;}
+    .f16{animation:f16 3s steps(1,end) infinite;}
+    .f17{animation:f17 3s steps(1,end) infinite;}
+    .f18{animation:f18 3s steps(1,end) infinite;}
+    .f19{animation:f19 3s steps(1,end) infinite;}
+    .f20{animation:f20 3s steps(1,end) infinite;}
+    .f21{animation:f21 3s steps(1,end) infinite;}
+    .f22{animation:f22 3s steps(1,end) infinite;}
+    .f23{animation:f23 3s steps(1,end) infinite;}
+    .f24{animation:f24 3s steps(1,end) infinite;}
+    .f25{animation:f25 3s steps(1,end) infinite;}
+    .f26{animation:f26 3s steps(1,end) infinite;}
+    .f27{animation:f27 3s steps(1,end) infinite;}
+    .f28{animation:f28 3s steps(1,end) infinite;}
+    .f29{animation:f29 3s steps(1,end) infinite;}
+    .f30{animation:f30 3s steps(1,end) infinite;}
+    .f31{animation:f31 3s steps(1,end) infinite;}
+    .f32{animation:f32 3s steps(1,end) infinite;}
+    .f33{animation:f33 3s steps(1,end) infinite;}
+    .f34{animation:f34 3s steps(1,end) infinite;}
+    .f35{animation:f35 3s steps(1,end) infinite;}
+    .f36{animation:f36 3s steps(1,end) infinite;}
+    .f37{animation:f37 3s steps(1,end) infinite;}
+    .f38{animation:f38 3s steps(1,end) infinite;}
+    .f39{animation:f39 3s steps(1,end) infinite;}
+    .f40{animation:f40 3s steps(1,end) infinite;}
+    .f41{animation:f41 3s steps(1,end) infinite;}
+    .f42{animation:f42 3s steps(1,end) infinite;}
+    .f43{animation:f43 3s steps(1,end) infinite;}
+    .f44{animation:f44 3s steps(1,end) infinite;}
+    .f45{animation:f45 3s steps(1,end) infinite;}
+    .f46{animation:f46 3s steps(1,end) infinite;}
+    .f47{animation:f47 3s steps(1,end) infinite;}
+    .f48{animation:f48 3s steps(1,end) infinite;}
+    .f49{animation:f49 3s steps(1,end) infinite;}
+    .f50{animation:f50 3s steps(1,end) infinite;}
+    .f51{animation:f51 3s steps(1,end) infinite;}
+    .f52{animation:f52 3s steps(1,end) infinite;}
+    .f53{animation:f53 3s steps(1,end) infinite;}
+    .f54{animation:f54 3s steps(1,end) infinite;}
+    .f55{animation:f55 3s steps(1,end) infinite;}
+    .f56{animation:f56 3s steps(1,end) infinite;}
+    .f57{animation:f57 3s steps(1,end) infinite;}
+    .f58{animation:f58 3s steps(1,end) infinite;}
+    .f59{animation:f59 3s steps(1,end) infinite;}
+    </style>
+  </defs>
+  <g class="frame f0">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                 $@@@$$$$$$@@@$                                 </text>
+    <text x="4" y="32.5">                             $$$$############$#$$$$                             </text>
+    <text x="4" y="40">                           $####***!!!!!!!!!!***####$                           </text>
+    <text x="4" y="47.5">                         ####**!!!!!!=====!!!!!!!**####                         </text>
+    <text x="4" y="55">                       *##***!!!!==;:::~~:::;==!!!!**###*                       </text>
+    <text x="4" y="62.5">                      !****!!!!=;;:~-,,,,,,-~:;;==!!!*****                      </text>
+    <text x="4" y="70">                     =****!!!==;:~,..........-~::==!!!****!                     </text>
+    <text x="4" y="77.5">                     !***!!!!=;:~-............,~:;==!!!***!                     </text>
+    <text x="4" y="85">                     !!**!!!==;:-,..        ...-~;==!!!**!!                     </text>
+    <text x="4" y="92.5">                    ;=!!!!!!!==;~,.          .,~:;==!!!**!!;                    </text>
+    <text x="4" y="100">                    :=!!!**!!!!==;~          ~:=;==!!!!!!!=;                    </text>
+    <text x="4" y="107.5">                     =!!!********!!=        =!!!!!*****!!!=                     </text>
+    <text x="4" y="115">                     ;=!!******#######**!*######*******!!=;                     </text>
+    <text x="4" y="122.5">                     ~;=!!****###$$$$$@@@@$$$$####****!!=;-                     </text>
+    <text x="4" y="130">                      ~:=!!****###$$$@@@@@@$$$###****!!=;~                      </text>
+    <text x="4" y="137.5">                       -:;=!!****###$$$$$$$$###****!!=;:-                       </text>
+    <text x="4" y="145">                         -:;=!!*******####*******!!=;:~                         </text>
+    <text x="4" y="152.5">                           ~::==!!!**********!!!==::-                           </text>
+    <text x="4" y="160">                             .,~~;;;========;;;:~-.                             </text>
+    <text x="4" y="167.5">                                 ..,--------,..                                 </text>
+  </g>
+  <g class="frame f1">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                               $$$$$$$$$$$$$$$$$$                               </text>
+    <text x="4" y="32.5">                            $$$#####********#####$$$                            </text>
+    <text x="4" y="40">                          ####********************####                          </text>
+    <text x="4" y="47.5">                        *#***!!*!!====;;;;====!**!!**###                        </text>
+    <text x="4" y="55">                       *****!!!==;;::~~~~~~::;;==!!!*****                       </text>
+    <text x="4" y="62.5">                      ***!*!!!;;:~~--,,..,,--~~:;==!!*!***                      </text>
+    <text x="4" y="70">                     !!!!!!!=;;:--,..........,--:;;=!!!!!*!                     </text>
+    <text x="4" y="77.5">                     !!!!!!=;::~-..............-~::;=!!!!!!                     </text>
+    <text x="4" y="85">                    ;!!!!!==;;~-,...        ...--~:;==!!!!!;                    </text>
+    <text x="4" y="92.5">                    ;=!!!!==;;:~-..          ..-~:;;==!!!!=;                    </text>
+    <text x="4" y="100">                    :==!!!!===;:;:~          ~:;:;===!!!!==;                    </text>
+    <text x="4" y="107.5">                     ;==!!!!!!!!=!!=        =!===!!!!!!!==;                     </text>
+    <text x="4" y="115">                     :;==!!!!!!***###########****!!!!!!==;:                     </text>
+    <text x="4" y="122.5">                      :;=!!!!***###$$$@@@$$$$###***!!!!=;:                      </text>
+    <text x="4" y="130">                       :;==!!!***##$$$$@@$$$$##***!!!==;:                       </text>
+    <text x="4" y="137.5">                        ~:;==!!!!**###$$$$###**!!!!==;:~                        </text>
+    <text x="4" y="145">                          ~:;;=!!!!!!!****!!!!!!!==;:~.                         </text>
+    <text x="4" y="152.5">                            -~:;;==!!!!!!!!!!===;:~-                            </text>
+    <text x="4" y="160">                               .-~~:::;;;;::::~-.                               </text>
+    <text x="4" y="167.5">                                     ......                                     </text>
+  </g>
+  <g class="frame f2">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                   @@@@@@@@@@$                                  </text>
+    <text x="4" y="25">                              $$$$$$########$$$$$$                              </text>
+    <text x="4" y="32.5">                           #$####****!!!!!!****#####$                           </text>
+    <text x="4" y="40">                         ####***!!!!!!!!!!!!!*!!***####                         </text>
+    <text x="4" y="47.5">                        ****!*!!!====;;;;;;====!!!*!*****                       </text>
+    <text x="4" y="55">                      !**!*!!!==;::::~~~~~~~:::;==!!!!!***                      </text>
+    <text x="4" y="62.5">                      !!!!!===;:~~-,.......,,-~::;===!!!!!!                     </text>
+    <text x="4" y="70">                     !!!!!==;:~~-,............,-~~;;==!!!!!                     </text>
+    <text x="4" y="77.5">                     =!!===;::~-,......  .......-~::;===!!!=                    </text>
+    <text x="4" y="85">                    ;=====;;:~--....        ....-~~:;;=====;                    </text>
+    <text x="4" y="92.5">                    :=====;;::~-,..          ..,-~::;;=====;                    </text>
+    <text x="4" y="100">                    ~;=====;;;::-:~          ~~:~::;;;====;:                    </text>
+    <text x="4" y="107.5">                     :;======;;======      ;======;;=====;;                     </text>
+    <text x="4" y="115">                     -:;======!!!**####$$$##**!!!!======;:~                     </text>
+    <text x="4" y="122.5">                      ~:;;===!!***##$$@@@$$$##**!!!====;:~                      </text>
+    <text x="4" y="130">                       -::;==!!!**##$$$$$$$###**!!===;;:~                       </text>
+    <text x="4" y="137.5">                         -:;;==!!***########*!!!!==;;:~.                        </text>
+    <text x="4" y="145">                          .-~:;==!!*********!!!==;:~-,                          </text>
+    <text x="4" y="152.5">                             .-~:;;;==!!!!==;;;:~-,                             </text>
+    <text x="4" y="160">                                 ..----~~----,..                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f3">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                 $$$$$$$$$$$$@@$                                </text>
+    <text x="4" y="25">                             $$$$##############$$$$                             </text>
+    <text x="4" y="32.5">                          #####*****!************#####                          </text>
+    <text x="4" y="40">                         #***!!!!!!!!!!!!!!!!!*!!!****##                        </text>
+    <text x="4" y="47.5">                       ***!!*!!===;;;;;;;;;;;;===!!!!!***                       </text>
+    <text x="4" y="55">                      !!!!!!==;;;:~~-------~~::;;==!!!!*!!                      </text>
+    <text x="4" y="62.5">                     =!!!!==;;:~~--,........,-~~~:;;==!!!!!                     </text>
+    <text x="4" y="70">                     =====;;::~-,.............,,-~:;;===!!==                    </text>
+    <text x="4" y="77.5">                     ====;;:~~-,....... ........,-~::;;=====                    </text>
+    <text x="4" y="85">                    :;=;;;::~--.....        ....,,~~::;;===;                    </text>
+    <text x="4" y="92.5">                    :;;;;;::~~-,...          ...,-~~::;;;;;;                    </text>
+    <text x="4" y="100">                     :;;;;;::~~--,~          -.,-~~:::;;;;;:                    </text>
+    <text x="4" y="107.5">                     ~:;;;;;;::::==!!;     ===;~::::;;;;;;:~                    </text>
+    <text x="4" y="115">                      ~:;;;;;;;=!!**#$$$$$##**!=;;;;;;;;::~                     </text>
+    <text x="4" y="122.5">                       ~::;;===!!*##$$@@@$$##**!===;;;;:~~                      </text>
+    <text x="4" y="130">                        -~:;;==!!!**#$$$$$##**!!!=;;;::~,                       </text>
+    <text x="4" y="137.5">                         .-~:;===!*!!******!!!!!=;;;:~-                         </text>
+    <text x="4" y="145">                           .-~~:;==!!!***!!!!==;::~-,                           </text>
+    <text x="4" y="152.5">                              ..--:::;;;;;;:::~-,.                              </text>
+    <text x="4" y="160">                                    .........                                   </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f4">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                               $$$$$$$$$$$$$$$$$$                               </text>
+    <text x="4" y="25">                            $$######*############$$$#                           </text>
+    <text x="4" y="32.5">                          ###****!*!!!****!!!!*****####                         </text>
+    <text x="4" y="40">                        ****!!*!!!!!========!!!!*!*!*****                       </text>
+    <text x="4" y="47.5">                       **!!!=!====;;:::::::;;;===!!!!!!***                      </text>
+    <text x="4" y="55">                      !!!!!==;;:::~~~-----~~~:::;;===!!!!!!                     </text>
+    <text x="4" y="62.5">                     ======;;::~-,,,......,,,,-~:::;;==!!!!=                    </text>
+    <text x="4" y="70">                     ===;;;:~--,...............,--~::;;=====                    </text>
+    <text x="4" y="77.5">                     ;;;;::~~-,.................,,-~:::;;;==                    </text>
+    <text x="4" y="85">                    :;;;::~--,......        .....,,-~:::;;;;:                   </text>
+    <text x="4" y="92.5">                     ::::~~~-,.....          .....,-~~:::;;;~                   </text>
+    <text x="4" y="100">                     :::::~~~--,,.~:         -..,,--~~::::::                    </text>
+    <text x="4" y="107.5">                     -~::::::~~~~;=!**!   !!=;:--~~~~::::::~                    </text>
+    <text x="4" y="115">                      -~~:::::;;=!**#$$@$$##*!=;:::::::::~-                     </text>
+    <text x="4" y="122.5">                       ,~~::;;;==!*##$$@$$$#*!!=;;;::::~~-                      </text>
+    <text x="4" y="130">                         -~::;;==!!**######**!!=;;:::~~-.                       </text>
+    <text x="4" y="137.5">                          .--~:;==!!*!!!!!!!!!=;;::~~-.                         </text>
+    <text x="4" y="145">                             .--~:;;==!!!!==;;;:~--..                           </text>
+    <text x="4" y="152.5">                                 ..,-~~~~~~~-,,..                               </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f5">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                               $$$$$$$$$$$$$$$$$$$                              </text>
+    <text x="4" y="25">                           ########*********######$$$                           </text>
+    <text x="4" y="32.5">                         ###****!!*!!!!!!!!!!******#####                        </text>
+    <text x="4" y="40">                        **!!*!!!!!!!=======!!!!!!!!*!***#                       </text>
+    <text x="4" y="47.5">                      !!!!!!===;;;;;;::::;;;;;;===!!!!!!***                     </text>
+    <text x="4" y="55">                      ==!==;;::::~~~~~~~~~~~~~::;;====!!!!!!                    </text>
+    <text x="4" y="62.5">                     ===;;;::~~~-,,........,,--~~:::;;======                    </text>
+    <text x="4" y="70">                     =;;:::~~-,,...............,-~~::;;;=====                   </text>
+    <text x="4" y="77.5">                     ;;::~~--,...................,,-~:::;;;=;                   </text>
+    <text x="4" y="85">                     :::~~--,.......        .......--~~::;;;;                   </text>
+    <text x="4" y="92.5">                     ::~~---,......          ......,--~~:::::                   </text>
+    <text x="4" y="100">                     ~~~~~--,,....~:         -....,,--~~~:::~                   </text>
+    <text x="4" y="107.5">                      -~~~~~~---~:=!*###***!=:-,,,,--~~~~~~~                    </text>
+    <text x="4" y="115">                       --~~~~~::;=!*#$$@@$#*!=::~~~~~~~~~~-                     </text>
+    <text x="4" y="122.5">                        ,-~~~::;=!!*##$$$$#*!=;;::~~~~~--,                      </text>
+    <text x="4" y="130">                          ,-~::;==!!!**##**!!==;::~~~--,.                       </text>
+    <text x="4" y="137.5">                            .,~::;=!!***!!!!==;::~---,.                         </text>
+    <text x="4" y="145">                               .,-~:::;;;;;:::~--,..                            </text>
+    <text x="4" y="152.5">                                    ...........                                 </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f6">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $$$$$$$$#$$$$$$$$$$$$                             </text>
+    <text x="4" y="25">                           #####**#*******########$$$$                          </text>
+    <text x="4" y="32.5">                         ******!*!!***!*******!***######                        </text>
+    <text x="4" y="40">                       ***!!=!!!!===========!!!!!**!******                      </text>
+    <text x="4" y="47.5">                      !!!!=====;;;:::::::::;;====!!!!!!!***                     </text>
+    <text x="4" y="55">                     ==!=;=;;::::~~~----~~~~::::;;;====!!!!!                    </text>
+    <text x="4" y="62.5">                     ;=;;::~~~--,,,,,..,,,,,,--~:::;;;;==!!!=                   </text>
+    <text x="4" y="70">                     ;;::~~---,...............,,,-~~::;;;====                   </text>
+    <text x="4" y="77.5">                     :::~~-,.....................,--~~:::;;;;                   </text>
+    <text x="4" y="85">                     ~~~--,.........       ........,-~~~:::;;                   </text>
+    <text x="4" y="92.5">                     ~~--,,,.......          ......,,--~~::::                   </text>
+    <text x="4" y="100">                     ,---,,,......-;=       :,......,,--~~~~~                   </text>
+    <text x="4" y="107.5">                      ,-----,,,,-~=!*#$$$##!;~.....,,,----~~-                   </text>
+    <text x="4" y="115">                       .,-----~::;!*#$$@@$#*=;~--,,,,------,                    </text>
+    <text x="4" y="122.5">                         .,--~~:;=!!*##$##**!;:~~-------,,                      </text>
+    <text x="4" y="130">                           .,-~::==!!!!!!!!!==;:~~---,,,.                       </text>
+    <text x="4" y="137.5">                             ..-~:;;==!!!!==;;:~~-,,...                         </text>
+    <text x="4" y="145">                                 ..,-~~~~~~~~-,,...                             </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f7">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                             $$$$$$$$$$$$$$$$$$$$$$                             </text>
+    <text x="4" y="25">                           ######*****##***######$$$$$                          </text>
+    <text x="4" y="32.5">                        *******!!!!!!!!!!!!!!*****######                        </text>
+    <text x="4" y="40">                       *!!!!=!!!!!=======!!!!!!!!!********                      </text>
+    <text x="4" y="47.5">                      !!!=!==;;;;;;;;;;;;;;=====!!!!!!!****                     </text>
+    <text x="4" y="55">                     ====;;::::~~~~~~~~~~~~~::;;;;====!!!!!!                    </text>
+    <text x="4" y="62.5">                     =;;:::~-~--,,,,,,,,,,--~~~~:::;;;====!=!                   </text>
+    <text x="4" y="70">                     :::~~--,................,,-~-~:::;;;;====                  </text>
+    <text x="4" y="77.5">                     :~~--,......................,--~~:::;;;=;                  </text>
+    <text x="4" y="85">                     ~--,,..........     ..........,--~~~:::;;                  </text>
+    <text x="4" y="92.5">                     --,,..........~        ........,,--~~~:::                  </text>
+    <text x="4" y="100">                      ,,,.........,;!*!     ;,.......,,--~~~~~                  </text>
+    <text x="4" y="107.5">                       .,,,....,,~:!*#$@$$#!;-.......,,,-----                   </text>
+    <text x="4" y="115">                        ..,,,--~~;=!*#$$$$*!=:-......,,,,,,,                    </text>
+    <text x="4" y="122.5">                          ..,-~~:;=!!**##**!;:~-,,,,,,,,,,.                     </text>
+    <text x="4" y="130">                            ..,-~:;=!*!!*!!==::~--,,,....                       </text>
+    <text x="4" y="137.5">                               ..--~:;;;;;;;::~--,.....                         </text>
+    <text x="4" y="145">                                    ....,,,,......                              </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f8">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                             $$$$$$$$$$$$$$$$$$$$$                              </text>
+    <text x="4" y="25">                          #####################$$$$$$$                          </text>
+    <text x="4" y="32.5">                        *****!**!!!!!!***********#######                        </text>
+    <text x="4" y="40">                       !!!!!=!!!!!=!!!!!!!!!***!*******###                      </text>
+    <text x="4" y="47.5">                      ==!=====;;;;;;;;;;;===!==!!!!!!******                     </text>
+    <text x="4" y="55">                     ;==;;;::::::~~~~~::::;;;;;====!=!!!!!!!!                   </text>
+    <text x="4" y="62.5">                     ;;::~~~~--------------~~::::;;;====!!!!!                   </text>
+    <text x="4" y="70">                     ::~--,,,.............,,----~:~::;;;======                  </text>
+    <text x="4" y="77.5">                     ~--,,....................,,,-~~~:::;;;;;;                  </text>
+    <text x="4" y="85">                     --,.........................,,,--~~::::;;                  </text>
+    <text x="4" y="92.5">                      ,............~;      ........,,---~~~~::                  </text>
+    <text x="4" y="100">                      ............,;!*##*   =.........,,--~~~~                  </text>
+    <text x="4" y="107.5">                        ........,-:=*#$@@$#!;-.........,,,----                  </text>
+    <text x="4" y="115">                         ....,,-~:;!!*#$$#*!;-..........,,,,,                   </text>
+    <text x="4" y="122.5">                           ...,-~:;=!!***!==;~-,...........                     </text>
+    <text x="4" y="130">                              ..-~:;;=!!!==;::~-,.........                      </text>
+    <text x="4" y="137.5">                                  .,,-~::~~~~--,,......                         </text>
+    <text x="4" y="145">                                         ........                               </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f9">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                             $$$$$$$$$$$$$$$$$@$                                </text>
+    <text x="4" y="25">                          ##################$$$$$$$$                            </text>
+    <text x="4" y="32.5">                        ******************##*########$$                         </text>
+    <text x="4" y="40">                       !!!=!!!!!!=!!!!!*!*!*!!*****######                       </text>
+    <text x="4" y="47.5">                      =====================!!!!!!*!********                     </text>
+    <text x="4" y="55">                     =;;;;;;:::::::;;;::;;;;====!=!!!!!*!!**                    </text>
+    <text x="4" y="62.5">                     ;:::~~~~~-------~~~~:::::;;;;===!==!!!!!                   </text>
+    <text x="4" y="70">                     ~~~--,,,,,,.,,,,,,,,,--~~~~:::;;;======!=                  </text>
+    <text x="4" y="77.5">                     --,,.................,,,,--~~~::::;;;====;                 </text>
+    <text x="4" y="85">                     ,,.........................,---~~::::;;;;;                 </text>
+    <text x="4" y="92.5">                      .............~;!  ...........,,--~~~:::::                 </text>
+    <text x="4" y="100">                       ...........,;!*#$$$#*.........,,--~~~~~~                 </text>
+    <text x="4" y="107.5">                        .........-:;!#$@$$#!:..........,,----~                  </text>
+    <text x="4" y="115">                          .....,-~:=!!*##*!=:,..........,,,,,                   </text>
+    <text x="4" y="122.5">                             ..,-~:;=!!!!!=;:-..............                    </text>
+    <text x="4" y="130">                                ..--:;====;:~-,...........                      </text>
+    <text x="4" y="137.5">                                    ...,,--,,,.........                         </text>
+    <text x="4" y="145">                                                                                </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f10">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $$$$$@@@@@@@@@@@                                  </text>
+    <text x="4" y="25">                          $###########$$$$$$$$$$$$$                             </text>
+    <text x="4" y="32.5">                        ##********##############$$$$$$                          </text>
+    <text x="4" y="40">                      !!!!!!!!!!***!**********##########                        </text>
+    <text x="4" y="47.5">                     =====!!=========!!!!!!*!********#*###                      </text>
+    <text x="4" y="55">                     ;=;;;;;;;;;;;;;;======!!!!!!!**!*******                    </text>
+    <text x="4" y="62.5">                     ::~:~~~~~~~::::::::;;;;;;===!!!!!!!!!!**                   </text>
+    <text x="4" y="70">                     ~--,--,,,,,,,,---~~~~~::;;:;;;=====!=!!!!                  </text>
+    <text x="4" y="77.5">                     -,..............,.,,,--~~~::::;;;;=====!==                 </text>
+    <text x="4" y="85">                     ,......................,,---~~~:::;;;;;===                 </text>
+    <text x="4" y="92.5">                      .........................,,,---~~::::::;;                 </text>
+    <text x="4" y="100">                        ...........~=*#$@.........,,----~~~::::                 </text>
+    <text x="4" y="107.5">                         ........,~;!*#$$$#!.........,,,---~~~~                 </text>
+    <text x="4" y="115">                            ....,-:;!!***!!;~............,,,--                  </text>
+    <text x="4" y="122.5">                              ...,~:=!!!===:~,.............,.                   </text>
+    <text x="4" y="130">                                  ..,~~:;::~-,.............                     </text>
+    <text x="4" y="137.5">                                       .................                        </text>
+    <text x="4" y="145">                                                                                </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f11">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                               @@@@@@@@@@@                                      </text>
+    <text x="4" y="25">                          $$$$$$$$$$$$$$$$$$$$$$                                </text>
+    <text x="4" y="32.5">                        ##*#############$$$$$$$$$$$$                            </text>
+    <text x="4" y="40">                      *!!!*!!!!**********#########$$$$#                         </text>
+    <text x="4" y="47.5">                     ====!!!!!!=!!!!!*!********##########                       </text>
+    <text x="4" y="55">                     ;=;=;;;;;=======!!!!!!**!!********###*                     </text>
+    <text x="4" y="62.5">                     ::~:::::::::;;;;;;;=====!!!!*!**!******                    </text>
+    <text x="4" y="70">                     ---------~~~~~~~~::;;;;=====!!!!!!!!!!!!                   </text>
+    <text x="4" y="77.5">                     ,,..........,,---~~~~::::;;;;=====!=!!!!!                  </text>
+    <text x="4" y="85">                      ................,,----~~:~:::;;;=;=======                 </text>
+    <text x="4" y="92.5">                       ....................,,,--~~~:~::;;;;;;=;                 </text>
+    <text x="4" y="100">                         ..........~;..........,,---~~~~::::;::                 </text>
+    <text x="4" y="107.5">                           ......,-:=!####........,,,----~~::::                 </text>
+    <text x="4" y="115">                             ....,~:;!!!!!=:..........,,,----~                  </text>
+    <text x="4" y="122.5">                                ...-~:;===;:-............,,,,,                  </text>
+    <text x="4" y="130">                                    ..,--~~-,...............                    </text>
+    <text x="4" y="137.5">                                         .................                      </text>
+    <text x="4" y="145">                                                                                </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f12">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                           $$$$$$$$@@@@@@@@$                                    </text>
+    <text x="4" y="32.5">                        #######$$$$$$$$$$$$$$$$$$                               </text>
+    <text x="4" y="40">                      ************########$$$$$$$$$$                            </text>
+    <text x="4" y="47.5">                     ==!=!!!!**!********##########$#$##                         </text>
+    <text x="4" y="55">                     ;===;===!==!!!!*!********#*#########                       </text>
+    <text x="4" y="62.5">                     ::::;;;;;;;;===!!!!!!!!!**********###*                     </text>
+    <text x="4" y="70">                     ------~~~~:::;;;;;====!!!!!!!!!********                    </text>
+    <text x="4" y="77.5">                     ,...,,,,---~~~~::::;;;=;====!!!!!!!!!!!!                   </text>
+    <text x="4" y="85">                      ...........,,----~::::;;;;=======!!!!=!=                  </text>
+    <text x="4" y="92.5">                        .............,,-,-~~~~:::;;;;;=========                 </text>
+    <text x="4" y="100">                          ...............,,,----~~::::;;;;;;;=;                 </text>
+    <text x="4" y="107.5">                            ......,~;!........,,,-~-~~:::::;;:;                 </text>
+    <text x="4" y="115">                               ....~;=!!=.........,,,--~~~~~~:~                 </text>
+    <text x="4" y="122.5">                                  ...-::;;:~..........,,------                  </text>
+    <text x="4" y="130">                                      ..,,,,..............,,,                   </text>
+    <text x="4" y="137.5">                                           ................                     </text>
+    <text x="4" y="145">                                                   ...                          </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f13">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                            $@@@@@@@@@@                                         </text>
+    <text x="4" y="32.5">                        #$$$$$$$$$$$@@@@@@@$$                                   </text>
+    <text x="4" y="40">                      ***########$$$$$$$$$$$$$$$$                               </text>
+    <text x="4" y="47.5">                     !!!!!*******#######$#$$$$$$$$$$                            </text>
+    <text x="4" y="55">                     ;===!!!!!!!********#########$$###                          </text>
+    <text x="4" y="62.5">                     ;;;;;;;;;==!!=!!*********###########                       </text>
+    <text x="4" y="70">                     -~~~::;;;;;=====!!!!************###**                      </text>
+    <text x="4" y="77.5">                     ..,----~~::;;;;;====!!!!!!!*!**********                    </text>
+    <text x="4" y="85">                      ......,---~~::::;;;;=====!!!!!!!!*!!!!!                   </text>
+    <text x="4" y="92.5">                        ........,----~:~::;;;;=;=====!!=!!!!!=                  </text>
+    <text x="4" y="100">                           .........,,,-~~~::::;;;;;=;========                  </text>
+    <text x="4" y="107.5">                              ...........,---~~~:::::;;;;;;;=;                  </text>
+    <text x="4" y="115">                                 ..,~.......,,----~~~:::::;;;;                  </text>
+    <text x="4" y="122.5">                                    ..,~~.......,,,---~~~~~~~~                  </text>
+    <text x="4" y="130">                                        ............,,,------                   </text>
+    <text x="4" y="137.5">                                            ................                    </text>
+    <text x="4" y="145">                                                .........                       </text>
+    <text x="4" y="152.5">                                                                                </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f14">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                        $$$$$$@@@@@@@@@$                                        </text>
+    <text x="4" y="40">                      #######$$$$$$$$@@@@$$$$                                   </text>
+    <text x="4" y="47.5">                     !!*****######$$$$$$$$$$$$$$                                </text>
+    <text x="4" y="55">                    ;=!=!!!*****########$$$$$$$$$$#                             </text>
+    <text x="4" y="62.5">                    :;=;;==!!!********########$#$$####                          </text>
+    <text x="4" y="70">                    -::;;;;====!=!!!*******############*                        </text>
+    <text x="4" y="77.5">                     .,-~~:;;;;====!!!!**!!********#####*                       </text>
+    <text x="4" y="85">                      ..,---~::::;====!=!!!!!*!************                     </text>
+    <text x="4" y="92.5">                        ...,,--~::::;;;;===!!!!!!!!!!!*!*!!!                    </text>
+    <text x="4" y="100">                           ....,,-~~~~:;:;;;;===!=!=!!!!!!!!=                   </text>
+    <text x="4" y="107.5">                              .....,---~::::;:;;;============;                  </text>
+    <text x="4" y="115">                                 .....,,--~~~~:::;;;;;;=;;;;=;                  </text>
+    <text x="4" y="122.5">                                    ......,,---~~~::::::;:::;:                  </text>
+    <text x="4" y="130">                                        ......,,---~-~~~~~:~~                   </text>
+    <text x="4" y="137.5">                                           .......,,,,------,                   </text>
+    <text x="4" y="145">                                              .............                     </text>
+    <text x="4" y="152.5">                                                    ..                          </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f15">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                         $@@@@@@@@$#                                            </text>
+    <text x="4" y="40">                      ##$$$$$$@@@@@@@@$$                                        </text>
+    <text x="4" y="47.5">                     **######$$$$$$$$@$$$$$$                                    </text>
+    <text x="4" y="55">                    ;=!****#####$$$$$$$$$$$$$$#                                 </text>
+    <text x="4" y="62.5">                    ;;!!!!***########$$$$$$$$$$$$#                              </text>
+    <text x="4" y="70">                    ::;=;=!=*!******#########$#$####*                           </text>
+    <text x="4" y="77.5">                     -~:;;====!!!!******#*############*                         </text>
+    <text x="4" y="85">                      ,-~:;:;===!!!!!*!*********######***                       </text>
+    <text x="4" y="92.5">                       .,--~::;;=;====!!!*!!**************                      </text>
+    <text x="4" y="100">                         ..,,~~~::;;;====!!!!!!!!!*!**!**!!                     </text>
+    <text x="4" y="107.5">                           ...,-~~~:::;;;;===!=!!!!!!!!!!!!!                    </text>
+    <text x="4" y="115">                              ...,--~~:::;;;;;========!!====;                   </text>
+    <text x="4" y="122.5">                                 ...,,-~~~:~:::;;;;;=;==;;=;;                   </text>
+    <text x="4" y="130">                                   .....,-,-~~~::::::;;;;::::                   </text>
+    <text x="4" y="137.5">                                      .....,,-----~~~~:~:::~                    </text>
+    <text x="4" y="145">                                          ......,,,-,------                     </text>
+    <text x="4" y="152.5">                                              ...........                       </text>
+    <text x="4" y="160">                                                                                </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f16">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                         $$@@@$$                                                </text>
+    <text x="4" y="40">                      #$$$$@@@@@@@@$#                                           </text>
+    <text x="4" y="47.5">                     *####$$$$$@@@@@$$$$                                        </text>
+    <text x="4" y="55">                    =**#####$$$$$$$$$$$$$$#                                     </text>
+    <text x="4" y="62.5">                    =!!***######$$$$$$$$$$$$$#                                  </text>
+    <text x="4" y="70">                    ;;=!!!****#####$#$$$$$$$$$##*                               </text>
+    <text x="4" y="77.5">                    ~:;;===!!***#*##########$$#####                             </text>
+    <text x="4" y="85">                     -:;;===!!!!*******#############*!                          </text>
+    <text x="4" y="92.5">                      --:::====!!!!********##########**                         </text>
+    <text x="4" y="100">                       .--~::;;===!!!!!!*****************                       </text>
+    <text x="4" y="107.5">                         .,-~~:;:;=;===!!!!!*!!*!*******!!                      </text>
+    <text x="4" y="115">                           ..-~-~::;;;=====!!!!!!!!!!!!!!!=                     </text>
+    <text x="4" y="122.5">                             ..,--~~::::;;;======!!!=!!====;                    </text>
+    <text x="4" y="130">                                ..,,--~:~:::;;;;=;;=======;;                    </text>
+    <text x="4" y="137.5">                                  ....,--~~~~:::::;;;;;;;::~                    </text>
+    <text x="4" y="145">                                     .....,,--~~~~~:~:~::~~                     </text>
+    <text x="4" y="152.5">                                         .....,,-,------,,                      </text>
+    <text x="4" y="160">                                             ..........                         </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f17">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                                                                                </text>
+    <text x="4" y="40">                      $$$@@@@@@@$$                                              </text>
+    <text x="4" y="47.5">                    !#$$$$$@@@@@@@$$#                                           </text>
+    <text x="4" y="55">                    **###$$$$$@@@@$$$$$#                                        </text>
+    <text x="4" y="62.5">                   ;!!*####$$$$$$$$$$$$$$#*                                     </text>
+    <text x="4" y="70">                   ;=!!***#####$$$$$$$$$$$$##                                   </text>
+    <text x="4" y="77.5">                   ~;;!!!***#######$$$$$$$$$###*                                </text>
+    <text x="4" y="85">                    ~;===!!*****########$########*                              </text>
+    <text x="4" y="92.5">                     ~:;==!!!!!*****###############*                            </text>
+    <text x="4" y="100">                      -~:;====!!!*!*****#*#########***                          </text>
+    <text x="4" y="107.5">                       ,-~:;;===!!!!!*!****************!                        </text>
+    <text x="4" y="115">                         ,-~::;;;==!!!!!!*!*!*********!!!=                      </text>
+    <text x="4" y="122.5">                          ..--~~:;;;====!=!!!!!!!!!!!!!!!=                      </text>
+    <text x="4" y="130">                            ..,-~~:::;;;========!=!!!=====;                     </text>
+    <text x="4" y="137.5">                               ..---~~:::;;;;;=========;;;:                     </text>
+    <text x="4" y="145">                                 ...,--~~~:::;:;;;;;;;;:::-                     </text>
+    <text x="4" y="152.5">                                    ...,,---~~~~:::~:~:~~-                      </text>
+    <text x="4" y="160">                                        ...,,,,-------,,                        </text>
+    <text x="4" y="167.5">                                             ........                           </text>
+  </g>
+  <g class="frame f18">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                                                                                </text>
+    <text x="4" y="40">                      #$@@@@@@$$#*                                              </text>
+    <text x="4" y="47.5">                     #$$$@@@@@@$$$#;                                            </text>
+    <text x="4" y="55">                   !*#$$$$$$@@@@$$$$#!!                                         </text>
+    <text x="4" y="62.5">                   !**###$$$$$$$$$$$$##*!                                       </text>
+    <text x="4" y="70">                   =!**###$$$$$$$$$$$$$$#**                                     </text>
+    <text x="4" y="77.5">                   ;=!***####$$$$$$$$$$$$####*                                  </text>
+    <text x="4" y="85">                   :;=!!***#*###$#$$$$$$$$###*!#                                </text>
+    <text x="4" y="92.5">                    :;==!!****#################**#                              </text>
+    <text x="4" y="100">                    -::==!!!!*****###############**#                            </text>
+    <text x="4" y="107.5">                     .~:;;==!!*!!******#*########****!                          </text>
+    <text x="4" y="115">                       -~:;====!!!*!!*****************!!                        </text>
+    <text x="4" y="122.5">                        ,-~::;;==!=!!!!!*!*!********!!!!=                       </text>
+    <text x="4" y="130">                          ,-~:::;;====!!!!!!!!!!!!!!!!!==;                      </text>
+    <text x="4" y="137.5">                            ,--~::;;;;=======!=!!=!!!===;:                      </text>
+    <text x="4" y="145">                              .,-~~~::;;;;;;=========;;;;~                      </text>
+    <text x="4" y="152.5">                                ..,--~~:~:::;;;;;;;;;:::~                       </text>
+    <text x="4" y="160">                                   ...,----~~~~:~:~~~~-,                        </text>
+    <text x="4" y="167.5">                                       ....,,,,-,-,,,.                          </text>
+  </g>
+  <g class="frame f19">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                                                                                </text>
+    <text x="4" y="40">                       $@@@@@$$##*                                              </text>
+    <text x="4" y="47.5">                     #$$@@@@@@$$#*!=!*                                          </text>
+    <text x="4" y="55">                   !##$$$@@@@@$$$$#*~:;!                                        </text>
+    <text x="4" y="62.5">                   !*#$$$$$$$$$$$$$#*=~;=!!                                     </text>
+    <text x="4" y="70">                  ;!*###$$$$$$$$$$$$$#*:;!*#*                                   </text>
+    <text x="4" y="77.5">                  ;=***###$$$$$$$$$$$###*=!#$$#                                 </text>
+    <text x="4" y="85">                  :=!!**#####$$$$$$$$$$##**#$$@$*                               </text>
+    <text x="4" y="92.5">                   ;=!!****#######$$$$######*!@@@$!                             </text>
+    <text x="4" y="100">                   ~:=!!*!**#*###############**!$$$#                            </text>
+    <text x="4" y="107.5">                    ~:;==!!*!****##############***!***                          </text>
+    <text x="4" y="115">                     -:;;=!=!!*!******#*######********!                         </text>
+    <text x="4" y="122.5">                      ,~:;;==!!!!**!*****************!!=                        </text>
+    <text x="4" y="130">                       .-~:;;;==!!!!!*!!!********!!!!!!=:                       </text>
+    <text x="4" y="137.5">                         ,-~::;;;===!=!!!!!!!!!!!!!!!!==:                       </text>
+    <text x="4" y="145">                           ,-~~::;;=;=======!=!=!=====;::                       </text>
+    <text x="4" y="152.5">                             .,--~:::;:;;;;====;===;;:::                        </text>
+    <text x="4" y="160">                                .,--~~~::::::;:;::::::-                         </text>
+    <text x="4" y="167.5">                                   ..,,---~~~~~~~~--,,                          </text>
+  </g>
+  <g class="frame f20">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                                                                                </text>
+    <text x="4" y="40">                       $@@@@@$$###*#                                            </text>
+    <text x="4" y="47.5">                     $$$@@@@@$$##*===!*                                         </text>
+    <text x="4" y="55">                   *#$$$@@@@@$$$#*!:~~;=!*                                      </text>
+    <text x="4" y="62.5">                   *#$$$$$$$$$$$$##!~,::;=**                                    </text>
+    <text x="4" y="70">                  =*###$$$$$$$$$$$##*;,~;=!*##                                  </text>
+    <text x="4" y="77.5">                  =**###$$$$$$$$$$$##*!,~;=*##$#                                </text>
+    <text x="4" y="85">                  =!**#####$$$$$$$$###**=;=*#$$$$*                              </text>
+    <text x="4" y="92.5">                  ;=!!**######$$$$$$####**=*#$@@@$$                             </text>
+    <text x="4" y="100">                  ~;=!*****###############**!#$$$$$$!                           </text>
+    <text x="4" y="107.5">                   :;=!!*****###############***!**###*                          </text>
+    <text x="4" y="115">                    :;=!!!!******############*********!                         </text>
+    <text x="4" y="122.5">                     ~:;==!!!!*******#*#**#***********!                         </text>
+    <text x="4" y="130">                      -~;;;==!!!!*!*****************!!!;                        </text>
+    <text x="4" y="137.5">                       ,~::;====!!!!!!!*!*!!*!*!!!!!!!=;                        </text>
+    <text x="4" y="145">                         -~~::;;===!!=!!!!!!!!!!!!!===;:                        </text>
+    <text x="4" y="152.5">                           ,-~~::;;;;===========;==;=;;                         </text>
+    <text x="4" y="160">                             .,-~~:::;;;;;;;;;;;;;;::~,                         </text>
+    <text x="4" y="167.5">                                .,,-~~~~:::::::::~~--                           </text>
+  </g>
+  <g class="frame f21">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                                                                                </text>
+    <text x="4" y="40">                       $@@@@@$$$#####                                           </text>
+    <text x="4" y="47.5">                     $$@@@@@$$$#**!==!!**                                       </text>
+    <text x="4" y="55">                   !#$$$@@@$$$$#*!=;~~:;=!*                                     </text>
+    <text x="4" y="62.5">                   ##$$$$$$$$$$##*!;,--:;=!**                                   </text>
+    <text x="4" y="70">                  **##$$$$$$$$$###*=~..-~;=!*##                                 </text>
+    <text x="4" y="77.5">                  !*##$$$$$$$$$$###*=...-~;!*##$#                               </text>
+    <text x="4" y="85">                  !**####$$$$$$$$###*!=.,:;=##$$$$!                             </text>
+    <text x="4" y="92.5">                  =!***####$$$$$$####**!,~=!#$$@@@$*                            </text>
+    <text x="4" y="100">                  ;!!!***##############**!:!*#$$@@@$*                           </text>
+    <text x="4" y="107.5">                  :;=!!****#############***!!**##$$$#!                          </text>
+    <text x="4" y="115">                   :===!!*****############*******####*;                         </text>
+    <text x="4" y="122.5">                    :;==!!!*****#*########************!                         </text>
+    <text x="4" y="130">                    ,::;==!!!!***********************!=                         </text>
+    <text x="4" y="137.5">                      ~:;;;==!!!!*!*!*************!!!==                         </text>
+    <text x="4" y="145">                       -~:;;;===!!!!!!!!!!!!!!!!!!!==;:                         </text>
+    <text x="4" y="152.5">                         ,~~::;;======!=!!!!!=!!====:;~                         </text>
+    <text x="4" y="160">                           ,-~~::;;;;===========;;;;:~                          </text>
+    <text x="4" y="167.5">                              ,--~~::::;:;;;;:;:::~-                            </text>
+  </g>
+  <g class="frame f22">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                             @@$$                                               </text>
+    <text x="4" y="40">                       $@@@@@$$$#######                                         </text>
+    <text x="4" y="47.5">                     $$@@@@$$$###*!====!**                                      </text>
+    <text x="4" y="55">                    #$$$@@$$$$##*!=::::;;=!**                                   </text>
+    <text x="4" y="62.5">                   ##$$$$$$$$$##*!;:,-~~;==!***                                 </text>
+    <text x="4" y="70">                  *##$$$$$$$$$##*!=:...,-~;=!*##*                               </text>
+    <text x="4" y="77.5">                 =*##$$$$$$$$$##**!;.....-:;!*####                              </text>
+    <text x="4" y="85">                 =!*####$$$$$$###**!=....-:=*##$$$#                             </text>
+    <text x="4" y="92.5">                 ;!**#####$$$$####**!!~..-:=*#$@@@$#                            </text>
+    <text x="4" y="100">                 ;=!***#############**!= .:=*#$@@@@$#                           </text>
+    <text x="4" y="107.5">                  ;=!****#############**!!,=*##$$$$$#*                          </text>
+    <text x="4" y="115">                  :=!!!****############********##$$$#*:                         </text>
+    <text x="4" y="122.5">                   :;=!!!*!****#########********#####*=                         </text>
+    <text x="4" y="130">                    :;;=!!!*!************************!;                         </text>
+    <text x="4" y="137.5">                     ~:;;==!!!*!*!******************!=:                         </text>
+    <text x="4" y="145">                      -~:;====!!!!!!!!!*!*!*!*!!!!!==;~                         </text>
+    <text x="4" y="152.5">                        -~:;;====!=!!!!!!!!!!!=!==;;;:                          </text>
+    <text x="4" y="160">                         .-~::;;;;===============;;:~                           </text>
+    <text x="4" y="167.5">                            ,-~~::::;;;;;;;;;;;::~-.                            </text>
+  </g>
+  <g class="frame f23">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                            @@@@@$$$                                            </text>
+    <text x="4" y="40">                        $@@@@$$$#########                                       </text>
+    <text x="4" y="47.5">                     #$@@@@$$$##**!=!===!**#                                    </text>
+    <text x="4" y="55">                    #$$$$$$$$##**==;;;==;;=!**                                  </text>
+    <text x="4" y="62.5">                   #$$$$$$$$$##*!=;~--~~:;=!!***                                </text>
+    <text x="4" y="70">                  *#$$$$$$$$$##*!=:-,...,~:;=!*##*                              </text>
+    <text x="4" y="77.5">                 =*###$$$$$$###**!;-.....,~:=!*###*                             </text>
+    <text x="4" y="85">                 =**###$$$$$####*!!; ....,~;=*#$$$$#                            </text>
+    <text x="4" y="92.5">                 =!**#####$######**!;   ..~;!*#$$$$$*                           </text>
+    <text x="4" y="100">                 =!!**############**!=   .-;!#$$@@@$#!                          </text>
+    <text x="4" y="107.5">                 :!!****###########***!=  .=*#$$@@@$$*                          </text>
+    <text x="4" y="115">                  ;!!!!****##########****!!!**#$$$$$#*;                         </text>
+    <text x="4" y="122.5">                  :;==!*******########*******###$$$##*;                         </text>
+    <text x="4" y="130">                   :;==!!!!*******#*********########*!:                         </text>
+    <text x="4" y="137.5">                    ~;;==!!!*!*!*******************!!=~                         </text>
+    <text x="4" y="145">                     ,:;;;=!!!!!!!*!!***********!!!==;                          </text>
+    <text x="4" y="152.5">                       ~::;=====!!!!!!!!!!!!!!==!===;                           </text>
+    <text x="4" y="160">                         -~::;;;======!=!=!!==;;;;;~                            </text>
+    <text x="4" y="167.5">                           ,-~~:::;;;;;;=;;;;;:::~,                             </text>
+  </g>
+  <g class="frame f24">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                            @@@@@@$$$$                                          </text>
+    <text x="4" y="40">                        $@@@@$$$$###***####                                     </text>
+    <text x="4" y="47.5">                      $$@@@$$$##**!!!====!**##                                  </text>
+    <text x="4" y="55">                    #$$$$$$$###*!!=;;;;;==!!!***                                </text>
+    <text x="4" y="62.5">                   #$$$$$$$$##**!;;~~-~~~:;=!!**#                               </text>
+    <text x="4" y="70">                  *#$$$$$$$$##*!=;~-,...,,~:==!**#*                             </text>
+    <text x="4" y="77.5">                 =*##$$$$$$###*!=;~.......,~:=!*###*                            </text>
+    <text x="4" y="85">                 =*####$$$####**!=:,  ....,~;!*##$$#*                           </text>
+    <text x="4" y="92.5">                 =!*###########**!=:     .,~;*#$$$$$#!                          </text>
+    <text x="4" y="100">                 =!**###########**!==     .~=*$$$@@$#*                          </text>
+    <text x="4" y="107.5">                 ==!****#########***!!=    =*#$@@@@$$*;                         </text>
+    <text x="4" y="115">                 ~;=!!****########*****!!!!*##$$@@$$$*=                         </text>
+    <text x="4" y="122.5">                  ;==!********######*******###$$$$$$#*;                         </text>
+    <text x="4" y="130">                   :;==!!*************##############*!:                         </text>
+    <text x="4" y="137.5">                   ,:;==!!!!!!************#######**!!;                          </text>
+    <text x="4" y="145">                     ~:;===!!!!!!!***************!===:                          </text>
+    <text x="4" y="152.5">                      ,~:;;===!=!!!!!!!!!!!!!!!====;:                           </text>
+    <text x="4" y="160">                        -~~:;;;=======!=!=!=!!===;:-                            </text>
+    <text x="4" y="167.5">                          .-~~::;;;;;;=;;=;;;;::~,                              </text>
+  </g>
+  <g class="frame f25">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                            @@@@@$$$$$$$                                        </text>
+    <text x="4" y="40">                        $@@@@$$$$###*****###                                    </text>
+    <text x="4" y="47.5">                      $$$$$$$###**!!!==!==!**##                                 </text>
+    <text x="4" y="55">                    #$$$$$$$##**!!=;;;;;===!=!**#                               </text>
+    <text x="4" y="62.5">                   ##$$$$$$##**!=;::~--~~~:;=!!!***                             </text>
+    <text x="4" y="70">                  *##$$$$$###*!!=:~-,....,-~:;!!**#*                            </text>
+    <text x="4" y="77.5">                  *###$$$####**!=:-.......,~:;=!*###*                           </text>
+    <text x="4" y="85">                 =*##########**!=;-.   ....-:;!*#####!                          </text>
+    <text x="4" y="92.5">                 =***########**!!=;       .-:=*##$$$#*                          </text>
+    <text x="4" y="100">                 =!***########***!=;       -=*#$$$$$$#!                         </text>
+    <text x="4" y="107.5">                 ;!!****#######***!!=;     =*#$$@@@$$#!                         </text>
+    <text x="4" y="115">                 ~=!!*****######****!*!!!=**$$$@@@$$$*!                         </text>
+    <text x="4" y="122.5">                  ;=!!!!********##******####$$$$$$$$#*;                         </text>
+    <text x="4" y="130">                   ;;=!!*!**********########$$$$$###*=;                         </text>
+    <text x="4" y="137.5">                    :;==!!!!*!********############*!=;                          </text>
+    <text x="4" y="145">                     ~;;==!!!!!!!****************!==;~                          </text>
+    <text x="4" y="152.5">                      -::;;===!!!!!!!!!!!!!*!!!====;-                           </text>
+    <text x="4" y="160">                        -~:;;;======!=!=!!!!====;:~                             </text>
+    <text x="4" y="167.5">                          ,-~~::;;;;;=;;==;;;::~-                               </text>
+  </g>
+  <g class="frame f26">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                            @@@@@$$$$$$$$$                                      </text>
+    <text x="4" y="40">                        $$@@$$$$####******####                                  </text>
+    <text x="4" y="47.5">                      #$$$$$$###**!===!===!!!*###                               </text>
+    <text x="4" y="55">                     $$$$$$$##**!!==;;;;;;==!!!**#                              </text>
+    <text x="4" y="62.5">                   *#$$$$$###**!=;;:~~---~~:;=!!****                            </text>
+    <text x="4" y="70">                   ###$$$###**!=;:~-,.....,-~;=!!****                           </text>
+    <text x="4" y="77.5">                  *#########**!=;~-........,-:=!!**##*                          </text>
+    <text x="4" y="85">                 ;**########**!=;~,.     ...-:=!*####*!                         </text>
+    <text x="4" y="92.5">                 ;!**#######**!!=;-       ..~=!*###$##*                         </text>
+    <text x="4" y="100">                 =!!**######***!!=;-       .;!*#$$$$$#!:                        </text>
+    <text x="4" y="107.5">                 ;!!****####*****!!=:      =*#$$@@$$$#!:                        </text>
+    <text x="4" y="115">                  ==!!*************!*!!= !*#$$@@@@$$#*!:                        </text>
+    <text x="4" y="122.5">                  :==!!!**************#####$$@@@@$$$#*=                         </text>
+    <text x="4" y="130">                   :==!!!*********########$$$$$$$$##*!;                         </text>
+    <text x="4" y="137.5">                    :;==!!!*!*******########$#####*!=;,                         </text>
+    <text x="4" y="145">                     ~:;==!!!!!!*!*******#####***!!=;-                          </text>
+    <text x="4" y="152.5">                      -~:;===!!!!!!!!!!!**!!!!!!==;:.                           </text>
+    <text x="4" y="160">                        -~::;;;=====!=!=!!=====;;~,                             </text>
+    <text x="4" y="167.5">                          .,-~:::;;;;;;;;;;;:::-.                               </text>
+  </g>
+  <g class="frame f27">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                                                                </text>
+    <text x="4" y="32.5">                            $@@@@$$$$$$$$$$$                                    </text>
+    <text x="4" y="40">                         $$$$$$$####*******#####                                </text>
+    <text x="4" y="47.5">                       $$$$$$###**!!==!=!!!*!!**##                              </text>
+    <text x="4" y="55">                     #$$$$$###**!====;;::;;==!!!**#*                            </text>
+    <text x="4" y="62.5">                    ##$$$####*!!==::~~----~:;;=!!****                           </text>
+    <text x="4" y="70">                   *#######**!!=;:~-,......,-:;=!!****                          </text>
+    <text x="4" y="77.5">                  !*#######**!!;;~,.........-~:=!!****!                         </text>
+    <text x="4" y="85">                  !*######***!==:~..     ....~:=!*###**=                        </text>
+    <text x="4" y="92.5">                  !**#####***!!=;~.        .,:;!*#####*!                        </text>
+    <text x="4" y="100">                  !!****##****!!=;:         :=*##$$$##*!                        </text>
+    <text x="4" y="107.5">                  =!************!!=;       ;*#$$$$$$##*=                        </text>
+    <text x="4" y="115">                  ;=!***************!!!  !##$$@@@@$$##!=                        </text>
+    <text x="4" y="122.5">                  :==!!*************#####$$$@@@@@$$##*=;                        </text>
+    <text x="4" y="130">                   :;=!!!!*******######$$$$$$$$$$###*=;                         </text>
+    <text x="4" y="137.5">                    ~;==!!!!*!*****######$$$$$####*!=;-                         </text>
+    <text x="4" y="145">                     ~:;;=!!!!!*!*****########***!==:-                          </text>
+    <text x="4" y="152.5">                       ~:;;===!!!!!!*!!****!!!!!!=;~                            </text>
+    <text x="4" y="160">                        .-~::;;======!!!!=!!!==;:~,                             </text>
+    <text x="4" y="167.5">                           .-~~::;;;;;;;;;;::~-,                                </text>
+  </g>
+  <g class="frame f28">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                   @@@@                                         </text>
+    <text x="4" y="32.5">                            $@@@$$$$$$$$$$$$$$                                  </text>
+    <text x="4" y="40">                         $$$$$$$##*****!!!***####                               </text>
+    <text x="4" y="47.5">                       #$$$$###**!!!!!!!=!!!!!***##                             </text>
+    <text x="4" y="55">                     *#$$$###**!!====;;::;;;=!!!!**#*                           </text>
+    <text x="4" y="62.5">                    *#######**!==;::~~--,--~:;==!!****                          </text>
+    <text x="4" y="70">                   !*######**!==;:-,.......,-~;;=!!****                         </text>
+    <text x="4" y="77.5">                   **#####**!!=;:~,.........,-:;=!*****!                        </text>
+    <text x="4" y="85">                  =***###***!!=;:-..      ...,~;=!******                        </text>
+    <text x="4" y="92.5">                  =!********!!==;~.         .-;=!*####**=                       </text>
+    <text x="4" y="100">                  =!*********!!==;~         ~=!*######*!=                       </text>
+    <text x="4" y="107.5">                  ==!**********!!==;       ;*##$$$$###*!;                       </text>
+    <text x="4" y="115">                  :=!!!*************!!! =*#$$$$$$$$$#**=:                       </text>
+    <text x="4" y="122.5">                   ;==!!*********#######$$$@@@@@$$$#**!=                        </text>
+    <text x="4" y="130">                    :==!!!!*****######$$$$@@@$$$$##*!==:                        </text>
+    <text x="4" y="137.5">                     :;==!!!!!****#####$$$$$$$###*!!!=:                         </text>
+    <text x="4" y="145">                      ~:;==!!!!!******######*****=!=;-                          </text>
+    <text x="4" y="152.5">                       ,~:;====!!!!!******!!!!=!!=;~                            </text>
+    <text x="4" y="160">                         .-~:;;;;===!!!!!!!====;~-.                             </text>
+    <text x="4" y="167.5">                            .,-~~::::;;;;::::~,.                                </text>
+  </g>
+  <g class="frame f29">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                  @@@@@@@@                                      </text>
+    <text x="4" y="32.5">                            $$$$$$$$$$###$#$$$$$                                </text>
+    <text x="4" y="40">                         #$$$$####******!!****###$                              </text>
+    <text x="4" y="47.5">                       *$$$####**!!*!!!!!!!!!!!!**##*                           </text>
+    <text x="4" y="55">                      #######***!!=;;;;::;;;===!!!**#*                          </text>
+    <text x="4" y="62.5">                     ######**!!!=;:~~------~:;;=!!*****                         </text>
+    <text x="4" y="70">                    *#####**!!=;;~-,........,-:;=!!!****                        </text>
+    <text x="4" y="77.5">                   !**##****!==;:-,..........,~:;=!!****!                       </text>
+    <text x="4" y="85">                   !*******!!==:~,..       ..,-:;=!*****!                       </text>
+    <text x="4" y="92.5">                   !!*******!!=;~,.         .,:;=!******!;                      </text>
+    <text x="4" y="100">                   =!*******!!!=;:-         ,;!***###***!;                      </text>
+    <text x="4" y="107.5">                   =!!!********!!!=:       -!*########*!!:                      </text>
+    <text x="4" y="115">                   ;=!!!************!!! !*#$$$$$$$$##**!=                       </text>
+    <text x="4" y="122.5">                   ~;=!!!!******######$$$$@@@@@$$$##**!=:                       </text>
+    <text x="4" y="130">                    ~;=!!!*!***#####$$$$$@@@@$$$###*!!=:                        </text>
+    <text x="4" y="137.5">                     ~;;=!!!!****#####$$$$$$$$###*!!!=:                         </text>
+    <text x="4" y="145">                      ,:;;=!!!!**!***########***!!!=;~                          </text>
+    <text x="4" y="152.5">                        ,~:;;==!!!!!!*!!!!!!*!!!!;;~.                           </text>
+    <text x="4" y="160">                          .-~::;;=====!!!!!==;;:~-                              </text>
+    <text x="4" y="167.5">                              ,--~~:::::::~~--.                                 </text>
+  </g>
+  <g class="frame f30">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                 $@@@@@@@@@@                                    </text>
+    <text x="4" y="32.5">                             $$$$$$#########$$$$$                               </text>
+    <text x="4" y="40">                          $$$$####****!********###$#                            </text>
+    <text x="4" y="47.5">                        ######******!!====!!!!****####                          </text>
+    <text x="4" y="55">                       #####**!*!==;;::::::;;=!!!!***##                         </text>
+    <text x="4" y="62.5">                     *###*****!=;;:~--,,,,,-~:;==!!!****                        </text>
+    <text x="4" y="70">                     *******!!=;:~-,........,-~:;=!!!****                       </text>
+    <text x="4" y="77.5">                    !******!!=;:~-............-~:==!!****!                      </text>
+    <text x="4" y="85">                   ;!******!!=;:~,..       ...,~:==!*****!                      </text>
+    <text x="4" y="92.5">                   ;!!*****!!!=;~,.          .~;;=!!****!!                      </text>
+    <text x="4" y="100">                   ;=!!*****!!!==:-          :=!!*******!=                      </text>
+    <text x="4" y="107.5">                   :=!!********!!==;        !***####***!!=                      </text>
+    <text x="4" y="115">                    ;=!!!*************!!!*##$$$$#####**!=;                      </text>
+    <text x="4" y="122.5">                    ~;=!!!*****#####$$$$$@@@@$$$$###**!!;~                      </text>
+    <text x="4" y="130">                     :;=!!!!***####$$$$@@@@@$$$$##**!!=;~                       </text>
+    <text x="4" y="137.5">                      ~:==!!!!***####$$$$$$$$####***!=;~                        </text>
+    <text x="4" y="145">                       ,::;=!!!!!***########****!*!=;:                          </text>
+    <text x="4" y="152.5">                         ,~:;;=!!!!*!!********!==;;~,                           </text>
+    <text x="4" y="160">                            -~::;;;==========;::~-.                             </text>
+    <text x="4" y="167.5">                               .,-~~~~:::~~--,.                                 </text>
+  </g>
+  <g class="frame f31">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                 $@@@@$$$$@@@@                                  </text>
+    <text x="4" y="32.5">                             $$$$$############$$$$                              </text>
+    <text x="4" y="40">                          #$$###****!!!!!!!!****###$#                           </text>
+    <text x="4" y="47.5">                         ####***!!!!!!====!!!!!!!*#####                         </text>
+    <text x="4" y="55">                       *###***!!!==;;::::::;;==!!!!***##                        </text>
+    <text x="4" y="62.5">                      ******!!==;;:~--,,,,--~:;;==!!!****                       </text>
+    <text x="4" y="70">                     !*****!!==;:~-,.........-~::==!!!****                      </text>
+    <text x="4" y="77.5">                     !****!!!=;:~,............,~:;=!!!***!=                     </text>
+    <text x="4" y="85">                    =!****!!==;:~,..        ..,-~;=!!!***!!                     </text>
+    <text x="4" y="92.5">                    =!!***!!!==;:-.          .-~;=!!!***!!=                     </text>
+    <text x="4" y="100">                    ;=!!****!!!=;:~          ~;=!!!*****!!=                     </text>
+    <text x="4" y="107.5">                    ;=!!********!!=;        =!!*********!=;                     </text>
+    <text x="4" y="115">                    ~;=!!******#**##***!!*#########***!!!=:                     </text>
+    <text x="4" y="122.5">                     ~;=!!****####$$$$$@@@$$$$$$###**!!==;                      </text>
+    <text x="4" y="130">                      :;=!!!!**###$$$$@@@@@@$$$###**!!=;;                       </text>
+    <text x="4" y="137.5">                       ~;;=!!!!**###$$$$$$$$$##***!!!=;:                        </text>
+    <text x="4" y="145">                        ,:;==!!!!!****####****!!!!==;:~                         </text>
+    <text x="4" y="152.5">                          ,~:;;==!!!!!!!!!!!!!!!=;;~,                           </text>
+    <text x="4" y="160">                             ,~~:;;========;=;::~-.                             </text>
+    <text x="4" y="167.5">                                 .,--~~~~~~-,..                                 </text>
+  </g>
+  <g class="frame f32">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                 $@@$$$$$$$$$@@$                                </text>
+    <text x="4" y="32.5">                             $$$$$#############$$$$$                            </text>
+    <text x="4" y="40">                           #####*****************###$#                          </text>
+    <text x="4" y="47.5">                         ####***!*!!========!!*****#####                        </text>
+    <text x="4" y="55">                        ******!!!=;;;::::::;;;=!!*****##*                       </text>
+    <text x="4" y="62.5">                       ****!!!==;:~~--,,,,--~~:;==!*!*****                      </text>
+    <text x="4" y="70">                      !***!!!=;:~~-,........,-~~;;=!!!****!                     </text>
+    <text x="4" y="77.5">                     =!**!!!=;;:~,............,~:;==!!!***!=                    </text>
+    <text x="4" y="85">                     =!!!!!!=;:~-...        ..,-:;;=!!!***!=                    </text>
+    <text x="4" y="92.5">                     =!!!!!!==;:~,.          ..-:;;=!!!!!!!=                    </text>
+    <text x="4" y="100">                     =!!!!!!!==;=:~          --:=!=!!!!!!!!=                    </text>
+    <text x="4" y="107.5">                     ;=!!!!******!!=        ==!!!*!!*!!!!!=;                    </text>
+    <text x="4" y="115">                     ~==!!!***########*****###*******!!!!=;~                    </text>
+    <text x="4" y="122.5">                      :==!****###$$$@@@@$$$$$####***!!!!=;:                     </text>
+    <text x="4" y="130">                       :;=!****###$$$$@@@@$$$###****!!!=;~                      </text>
+    <text x="4" y="137.5">                        ~:==!****####$$$$$$###****!!!=;:~                       </text>
+    <text x="4" y="145">                         ,~;==!*******####******!!==;:~,                        </text>
+    <text x="4" y="152.5">                           .~:;;=!!********!!!!!=;::~.                          </text>
+    <text x="4" y="160">                              .~~:;;;======;;;:~~-.                             </text>
+    <text x="4" y="167.5">                                  ..,,,-----,..                                 </text>
+  </g>
+  <g class="frame f33">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                 $$$$$$$$$$$$$@@$                               </text>
+    <text x="4" y="32.5">                              $$$####******#####$$$$$                           </text>
+    <text x="4" y="40">                           *####***!!!!!!!!!****####$$#                         </text>
+    <text x="4" y="47.5">                          ##**!!!!!===;;;===!!!!!***####*                       </text>
+    <text x="4" y="55">                        *****!!===;::~~~~~::;===!!!***###*                      </text>
+    <text x="4" y="62.5">                       !**!*!==;;:~-,,...,,-~::;==!!*******                     </text>
+    <text x="4" y="70">                       !!!!!==;:~--..........-~::;==!******!                    </text>
+    <text x="4" y="77.5">                      =!!!!==;;~-,............,~:;;=!!!****!                    </text>
+    <text x="4" y="85">                      =!!!!==;:~-...        ...-~:;==!!*!*!!=                   </text>
+    <text x="4" y="92.5">                      =!!!!!==;:~,.          ..-~:;==!!!!!!!=                   </text>
+    <text x="4" y="100">                      =!!!!!!!!==;;          ,~::;==!!!!!!!=;                   </text>
+    <text x="4" y="107.5">                      ;=!!!********!;       ;;====!!!!!!!!==:                   </text>
+    <text x="4" y="115">                      :;=!***#####$$$##********!!*!!!!!!!==;                    </text>
+    <text x="4" y="122.5">                       :;!!***##$$$@@@@$$$$###*****!!!!!==;~                    </text>
+    <text x="4" y="130">                        :==!!**###$$$@@@$$$$###***!!!!!=;;~                     </text>
+    <text x="4" y="137.5">                         ~;=!!!***###$$$$####****!!!==;;:-                      </text>
+    <text x="4" y="145">                          ,~;==!!!!*********!!!!!!==;::-                        </text>
+    <text x="4" y="152.5">                            .-:;==!!!!!!*!!!!!==;;::~-                          </text>
+    <text x="4" y="160">                               ,-~::;;=====;;;;~~--.                            </text>
+    <text x="4" y="167.5">                                   ...,,,,,,,..                                 </text>
+  </g>
+  <g class="frame f34">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                  $$$$$$$$$$$$$@@$                              </text>
+    <text x="4" y="32.5">                              #######******#####$$$$$                           </text>
+    <text x="4" y="40">                            ##*****!!!*!**!!!****####$$#                        </text>
+    <text x="4" y="47.5">                          ****!!!!====;;=====!*!****#####*                      </text>
+    <text x="4" y="55">                         **!!!!=;;;::~~~~~::;;==!!!***####*                     </text>
+    <text x="4" y="62.5">                        !!!!!==;;:~-,,..,,---~:;;=!!********                    </text>
+    <text x="4" y="70">                       =!!!!==;:~-...........,~::==!!!******!                   </text>
+    <text x="4" y="77.5">                       =!!!==;;~-,............,~:;;=!!!*****!                   </text>
+    <text x="4" y="85">                       =!!!==;:~-,...       ..,-~:;==!!*!*!!!                   </text>
+    <text x="4" y="92.5">                       =!!!!==;:~-..         ..-~:;==!!!!!!!!;                  </text>
+    <text x="4" y="100">                       =!!!!!!!!!;;:         ,-~:;;==!!!!!!!=:                  </text>
+    <text x="4" y="107.5">                       ;=!!*****##**!       :;;;;===!!!!!!!=;                   </text>
+    <text x="4" y="115">                       ~=!!**###$$$$$$#*!*!!!!!!!!!!!!!!!===:                   </text>
+    <text x="4" y="122.5">                        :=!!**##$$$@@@@$$$##***!!!!!!!!===;:-                   </text>
+    <text x="4" y="130">                         :=!***###$$$@$$$$###***!!!!!====;:-                    </text>
+    <text x="4" y="137.5">                          -;=!***###$#######***!!!!===;;:~                      </text>
+    <text x="4" y="145">                           .~;=!!*!*********!!!!!===;;:~-                       </text>
+    <text x="4" y="152.5">                             .-:;=!!!!!*!*!!!!==;;;::~,                         </text>
+    <text x="4" y="160">                                .-~:;;;;;;;;;:::~~-,.                           </text>
+    <text x="4" y="167.5">                                    ..,,,,,,,,..                                </text>
+  </g>
+  <g class="frame f35">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                                                                </text>
+    <text x="4" y="25">                                  $$$$$$$$$$$$$$@@$                             </text>
+    <text x="4" y="32.5">                               ####**********##$#$$$$$                          </text>
+    <text x="4" y="40">                             #****!!!!!!!!!!!!**####$$$$#                       </text>
+    <text x="4" y="47.5">                           **!!*!!====;;====!!!!****######                      </text>
+    <text x="4" y="55">                          !!!!==;;:::~~~~~~:;===!!!***#####*                    </text>
+    <text x="4" y="62.5">                         !!!!=;::~--,,....,-~::;==!******#**!                   </text>
+    <text x="4" y="70">                        =!!==;::~,..........,-~:;;=!!!*******                   </text>
+    <text x="4" y="77.5">                        =!===;:~-,...... ....,-~:;;=!!******!=                  </text>
+    <text x="4" y="85">                        =====;;:-,...       ..,-:;;==!!!*!**!=                  </text>
+    <text x="4" y="92.5">                        ==!===;;:-,.         .,-~:;==!!!!!!!!=                  </text>
+    <text x="4" y="100">                        ==!!!!!=!;=;         ,~::;;==!!!!!!!==                  </text>
+    <text x="4" y="107.5">                        ;=!***######*;      :::;;;===!!!!!!==;                  </text>
+    <text x="4" y="115">                        ~=!!*###$$$$$$$#!!!==========!!!!===;:                  </text>
+    <text x="4" y="122.5">                         :=!!*##$$@@@@@$$#***!!!!!!!!======;:                   </text>
+    <text x="4" y="130">                          :=!!**#$$$$$$$###***!!!!!======;;~                    </text>
+    <text x="4" y="137.5">                           ~;=!!***#######***!!!!!====;;;:~                     </text>
+    <text x="4" y="145">                            .:;=!!!!!!****!!!!======;;::~,                      </text>
+    <text x="4" y="152.5">                              .~:====!!=!!!!====;;;::~-,                        </text>
+    <text x="4" y="160">                                 .-:::;;;;;;;::::~~-,                           </text>
+    <text x="4" y="167.5">                                     .,,---,-,,,.                               </text>
+  </g>
+  <g class="frame f36">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         @@@@@                                  </text>
+    <text x="4" y="25">                                   $$$####$$$$$$$@@$                            </text>
+    <text x="4" y="32.5">                                ##**********####$$$$$$$                         </text>
+    <text x="4" y="40">                             ***!!==!===!=*!!!***###$$$$#                       </text>
+    <text x="4" y="47.5">                            *!!=!==;;;;;;;===!=!***########                     </text>
+    <text x="4" y="55">                           !!!=;;::~----~~::;;==!!!**######*                    </text>
+    <text x="4" y="62.5">                          !===;;~~-,.....,--~:;;==!!*****##**                   </text>
+    <text x="4" y="70">                         ====;:~~,..........,-~:;==!!!*******!                  </text>
+    <text x="4" y="77.5">                         ====;:~-,...........,-~:;==!!*******!                  </text>
+    <text x="4" y="85">                         ====;;:~,....      ..-~:;===!!!****!!;                 </text>
+    <text x="4" y="92.5">                         ======;:~-..        .,~::;==!!!!!!!!!;                 </text>
+    <text x="4" y="100">                         ==!!!*!=*!=:        .-~:;;==!!!!!!!!=;                 </text>
+    <text x="4" y="107.5">                         ;=!**######*!      ~:::;=====!!!!!!==                  </text>
+    <text x="4" y="115">                         :=!*##$$$@@$$$*!!===;=========!====;;                  </text>
+    <text x="4" y="122.5">                          :=!*##$$@@@$$$#**!!==============;;~                  </text>
+    <text x="4" y="130">                           :=!**#$$$$$$##**!!!!==========;;:~                   </text>
+    <text x="4" y="137.5">                            :;!!!**####****!!!!======;;;;:~-                    </text>
+    <text x="4" y="145">                             -:==!!!!**!!!!!!!=====;;;::~~,                     </text>
+    <text x="4" y="152.5">                               -:;;=!!========;;;;;::~~-.                       </text>
+    <text x="4" y="160">                                 .--::;;;;;;;::::~~--.                          </text>
+    <text x="4" y="167.5">                                     .,,------,,...                             </text>
+  </g>
+  <g class="frame f37">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                        $@@@@@@                                 </text>
+    <text x="4" y="25">                                   $$######$$$$$$$@$$                           </text>
+    <text x="4" y="32.5">                                ##***!!!!****####$$$$$$#                        </text>
+    <text x="4" y="40">                              **!!====!!===!!!**####$$$$$#                      </text>
+    <text x="4" y="47.5">                             !!!!==;;;;;;===!=!!***########                     </text>
+    <text x="4" y="55">                            !===;:~~---~~~~:;==!!!***#######                    </text>
+    <text x="4" y="62.5">                           ===;:~-,......,,~::;==!!!****####*                   </text>
+    <text x="4" y="70">                          ===;:~~,.........,-~::==!!!********!                  </text>
+    <text x="4" y="77.5">                          ===;:~-............-~:;===!!*******!                  </text>
+    <text x="4" y="85">                          ===;;:~-....      .,~::;==!!*****!!!=                 </text>
+    <text x="4" y="92.5">                          =====;;:~,.       .,~::;==!!!!***!!!=                 </text>
+    <text x="4" y="100">                          ;!!******!=        -~:;;===!!!!!!!!!;                 </text>
+    <text x="4" y="107.5">                          ;!!*##$$$$#*~     ~~~:;====!!!!!!!==;                 </text>
+    <text x="4" y="115">                          :=!*#$$$@@@$$*!=;;;;;;=======!=====;~                 </text>
+    <text x="4" y="122.5">                           :=!*#$$@@@$$#*!=====;===========;;:                  </text>
+    <text x="4" y="130">                           ,;=!*##$$$###*!!!=============;;;:                   </text>
+    <text x="4" y="137.5">                            ,:==!!**#****!!!========;;;;;::~                    </text>
+    <text x="4" y="145">                              ~;=!!!!!!!!========;;;;;:::~-                     </text>
+    <text x="4" y="152.5">                               .~:;====!====;;;;;;::::~--                       </text>
+    <text x="4" y="160">                                  ,-::;;;;::::::::~~-,,                         </text>
+    <text x="4" y="167.5">                                     ..,--------,,..                            </text>
+  </g>
+  <g class="frame f38">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                        $@@@@@@@                                </text>
+    <text x="4" y="25">                                   ########$$$$$$@@@$                           </text>
+    <text x="4" y="32.5">                                 **!!!!!!***####$$$$$$$$                        </text>
+    <text x="4" y="40">                               *!===;=;;==!=!**#####$$$$$#                      </text>
+    <text x="4" y="47.5">                              !=;=;;;:;;;;;;==!!**#####$$##                     </text>
+    <text x="4" y="55">                             ==;;:~~-----~:;;===!***########!                   </text>
+    <text x="4" y="62.5">                            ==;:~-,......,-~:;;==!****######*                   </text>
+    <text x="4" y="70">                           ;=;:~-,.........,~:;;=!!!*********!                  </text>
+    <text x="4" y="77.5">                           ;=;:~-,..........,~:;;=!!!********!=                 </text>
+    <text x="4" y="85">                           ==;;:~-,....    .,-~:;==!!!!*****!!=                 </text>
+    <text x="4" y="92.5">                           =====;;~-,.      .-::;===!!!!!**!!!=                 </text>
+    <text x="4" y="100">                           ;!***##**!;      ,-::;;==!!!!!!!!!=;                 </text>
+    <text x="4" y="107.5">                           ;!*##$$$$$#=    -~~:;;====!!!!!!!==;                 </text>
+    <text x="4" y="115">                           :=**#$@@@@$$*!;::::;;;=====!=!====;:                 </text>
+    <text x="4" y="122.5">                            ;=*#$$$$$$#*!==;;;;=============;:                  </text>
+    <text x="4" y="130">                            ~;=!*#####**!================;;::                   </text>
+    <text x="4" y="137.5">                             -;;!!*****!!============;;;;;::                    </text>
+    <text x="4" y="145">                              .;=!===!!====;==;;;;;;;;:::~-                     </text>
+    <text x="4" y="152.5">                                -:;=======;;;;;;;;:::::~-,                      </text>
+    <text x="4" y="160">                                  ,~::::;;::::::::~~~-,,                        </text>
+    <text x="4" y="167.5">                                     .,--~~-~-----,,.                           </text>
+  </g>
+  <g class="frame f39">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                        $$@@@@@@@                               </text>
+    <text x="4" y="25">                                    ########$$$$$$@@$$                          </text>
+    <text x="4" y="32.5">                                  *!!!!!!!***##$$$$$$$$$                        </text>
+    <text x="4" y="40">                                !=;==;=;===!!**###$$$$$$$#                      </text>
+    <text x="4" y="47.5">                               =;:;:::::;=;==!!***####$$$##                     </text>
+    <text x="4" y="55">                              ;=;:~-,,--~~:;==!!***#########!                   </text>
+    <text x="4" y="62.5">                             ;;:~-,......,~:;==!!!**########*                   </text>
+    <text x="4" y="70">                            ;;;:-,........,-::;==!*****###***!                  </text>
+    <text x="4" y="77.5">                            ;;;:~,.........-~:;;=!!!*********!                  </text>
+    <text x="4" y="85">                            ;=;::~-,...   .,~~;;==!!!*******!!=                 </text>
+    <text x="4" y="92.5">                            =====;:~-..    ,~:;;===!!!!!**!!!!=                 </text>
+    <text x="4" y="100">                            =!*#####*=-    ,~:;;===!!!!!!!!!!=;                 </text>
+    <text x="4" y="107.5">                            =!*#$$$$$#*   ,~~:;;===!!!!!!!!!==:                 </text>
+    <text x="4" y="115">                            ;!*#$$@@@$#*=:::;;;;=====!!!!====;                  </text>
+    <text x="4" y="122.5">                            -=!##$$$$#*!;;:;;;;;============;:                  </text>
+    <text x="4" y="130">                             :;!*###**!==;;;;;;;=========;;;:                   </text>
+    <text x="4" y="137.5">                              :;=!!!!!!===;;;;;;;;==;;;;;;:~,                   </text>
+    <text x="4" y="145">                               :=;======;;;;;;;;;;;;;;;::~~                     </text>
+    <text x="4" y="152.5">                                ,:;;=;;;;;;;;;;::;:::::~~-                      </text>
+    <text x="4" y="160">                                  ,~~::::::::::::::~~~-,                        </text>
+    <text x="4" y="167.5">                                    .,---~~~~~~----,,.                          </text>
+  </g>
+  <g class="frame f40">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                        $$$$@@@@@@                              </text>
+    <text x="4" y="25">                                     #*####$$$$$$$@@$$                          </text>
+    <text x="4" y="32.5">                                  *!!==!!!**###$$$$$$$$$                        </text>
+    <text x="4" y="40">                                 ==;;;;;;!=!***###$$$$$$$#                      </text>
+    <text x="4" y="47.5">                                ;;;::::;:;;=!***####$$$$$##                     </text>
+    <text x="4" y="55">                               ;::~-,,--~:;;=!!***#########*                    </text>
+    <text x="4" y="62.5">                              ;::-,.....,-:;;=!!****#######**                   </text>
+    <text x="4" y="70">                             ;;:~,.......,~:;==!******####***!                  </text>
+    <text x="4" y="77.5">                             ;;:~-,.......-~;;==!!!*********!!                  </text>
+    <text x="4" y="85">                             ;;;:~~,....  ,~:;==!!!!********!=                  </text>
+    <text x="4" y="92.5">                             =====;:~-.   ,~:;;=!!!!!*****!!!=                  </text>
+    <text x="4" y="100">                             =*######*=   -~:;;==!!!!!***!!!!=                  </text>
+    <text x="4" y="107.5">                             =*#$$@@$$*= ,~::;;===!!!!!!!!!!=;                  </text>
+    <text x="4" y="115">                             ;!#$$@@@$#*~~::;;=====!!!!!!!==;:                  </text>
+    <text x="4" y="122.5">                             ;=*##$$#*=;:::;;;=============;;~                  </text>
+    <text x="4" y="130">                              ;=****!!=;;;;;;;;==========;;::                   </text>
+    <text x="4" y="137.5">                              ~:==!!===;;;;;;;;;;;====;;;;:~                    </text>
+    <text x="4" y="145">                               -;;;=;;;;;;;;;;;;;;;;;;;::~~                     </text>
+    <text x="4" y="152.5">                                ,~::;:;;;;:::;:;;;:::::~~,                      </text>
+    <text x="4" y="160">                                  -~~:::::::::::::~~~~-,                        </text>
+    <text x="4" y="167.5">                                    .,--~~~~~~~~~---,.                          </text>
+  </g>
+  <g class="frame f41">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         $$$$@@@@@                              </text>
+    <text x="4" y="25">                                     ****###$$$$$@@@$$                          </text>
+    <text x="4" y="32.5">                                   !!==!!!**###$$$$$$$$#                        </text>
+    <text x="4" y="40">                                  ;;:::;==!!**##$$$$$$$$##                      </text>
+    <text x="4" y="47.5">                                =::::~~::;=!!*#####$$$$$##*                     </text>
+    <text x="4" y="55">                                ;~~-,.,~~:;=!***##########**                    </text>
+    <text x="4" y="62.5">                               ::-,.....-:;;!!!***#########*=                   </text>
+    <text x="4" y="70">                              ::~-,.....,~:;=!!!****######**!                   </text>
+    <text x="4" y="77.5">                              ;::-,......-:;==!!***********!!                   </text>
+    <text x="4" y="85">                              ;;;:~-,....-:;;==!!**********!!;                  </text>
+    <text x="4" y="92.5">                              =====;:~,. -:;;==!!!!******!!!=;                  </text>
+    <text x="4" y="100">                             -!*##$$#*!~ ~:;===!!!!!****!!!==;                  </text>
+    <text x="4" y="107.5">                             -!#$$@@@$#!-::;;==!!!!!!!!!!!!=;~                  </text>
+    <text x="4" y="115">                              =*#$@$$$*~~:;;=====!!!!!!!!===;                   </text>
+    <text x="4" y="122.5">                              ;!*###*=::::;;;=======!======;~                   </text>
+    <text x="4" y="130">                              :=!**!=;:::;;;;============;;:                    </text>
+    <text x="4" y="137.5">                               :;===;;;;;;;;;;;======;;;;;~-                    </text>
+    <text x="4" y="145">                               -::;;;;;;;;;;;;;;;;;;;;;::~,                     </text>
+    <text x="4" y="152.5">                                -::::::::::;;;;;;;:::::~-                       </text>
+    <text x="4" y="160">                                 .-~~:~::::::::::::~~~-,                        </text>
+    <text x="4" y="167.5">                                   .,-~-~~~~~~~~~~--,.                          </text>
+  </g>
+  <g class="frame f42">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         $$$$@@@@@$                             </text>
+    <text x="4" y="25">                                      ***##$$$$$@@@$$$                          </text>
+    <text x="4" y="32.5">                                    ====!**###$$$$$$$$$#                        </text>
+    <text x="4" y="40">                                  =::::;=!***###$$$$$$$$#                       </text>
+    <text x="4" y="47.5">                                 ;~:~~-:;=!!*####$$$$$$##*                      </text>
+    <text x="4" y="55">                                 :~,.,-~:==!***###########*                     </text>
+    <text x="4" y="62.5">                                :~,....-:;=!****#########**!                    </text>
+    <text x="4" y="70">                               ::~,....,:;==!****#######***!                    </text>
+    <text x="4" y="77.5">                               ;:~-.....~:;=!!*************!                    </text>
+    <text x="4" y="85">                               ;;::--...~:;=!!!**********!!=;                   </text>
+    <text x="4" y="92.5">                              ~!*===;:~,:;===!!!*********!!=;                   </text>
+    <text x="4" y="100">                              :!#$$$$#*~:;==!!!!!*****!!!!!;;                   </text>
+    <text x="4" y="107.5">                              ;*#$@@@$#~:;;==!!!!!!!!!!!!!=;                    </text>
+    <text x="4" y="115">                              :*#$$$$#~:;;====!!!!!!!!!!==;:                    </text>
+    <text x="4" y="122.5">                              -!*##*=~::;;;====!!!!!!====;;~                    </text>
+    <text x="4" y="130">                               ;!!=;::::;;;;===========;;;:                     </text>
+    <text x="4" y="137.5">                               ~;=;;:::;;;;;========;;;;:~                      </text>
+    <text x="4" y="145">                               ~~:::::::;;;;;;;;;;;;;;::~,                      </text>
+    <text x="4" y="152.5">                                -~::::::::;;;;;;;;:::~~-                        </text>
+    <text x="4" y="160">                                 ,-~~~~~::::::::::~~~-,                         </text>
+    <text x="4" y="167.5">                                  .,---~~~~~~~~~~--,,                           </text>
+  </g>
+  <g class="frame f43">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         $$$$@@@@@$                             </text>
+    <text x="4" y="25">                                      ***##$$$$$@@$$$#                          </text>
+    <text x="4" y="32.5">                                    =;=!!*###$$$$$$$$$#                         </text>
+    <text x="4" y="40">                                   ;~~;=!**###$$$$$$$$##*                       </text>
+    <text x="4" y="47.5">                                  :~~-~;!!**####$$$$$$##*                       </text>
+    <text x="4" y="55">                                  ~,.,~;=!!*############**                      </text>
+    <text x="4" y="62.5">                                 ~-...~;=!!**##########***=                     </text>
+    <text x="4" y="70">                                :~-...~;=!!!***########**!!                     </text>
+    <text x="4" y="77.5">                                ;:-,..~;==!!*****###*****!=                     </text>
+    <text x="4" y="85">                                ;;:~-.~;==!!***********!!!=                     </text>
+    <text x="4" y="92.5">                               :!**=;;:;==!!!!*********!!==                     </text>
+    <text x="4" y="100">                               ;*#$$$~:;==!!!!!*****!!!!!==                     </text>
+    <text x="4" y="107.5">                               =*$$@@:;;==!!!!!!!!!!!!!!=;;                     </text>
+    <text x="4" y="115">                               =*$$$~:;;===!!!!!!!!!!!==;;~                     </text>
+    <text x="4" y="122.5">                               =**!~::;;====!!!!!!!====;;:                      </text>
+    <text x="4" y="130">                               ;==::::;;;=============;;:-                      </text>
+    <text x="4" y="137.5">                               :;:::::;;;;=========;;;::-                       </text>
+    <text x="4" y="145">                               ~::::::;;;;;;;;;;;;;;::~-                        </text>
+    <text x="4" y="152.5">                                ~~~:::::::;;;;;;::::~~,                         </text>
+    <text x="4" y="160">                                ,-~~~~~::::::::::~~~-.                          </text>
+    <text x="4" y="167.5">                                  ,--~~~~~~~~~~~---,                            </text>
+  </g>
+  <g class="frame f44">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         $$$@@@@@@$                             </text>
+    <text x="4" y="25">                                      !*###$$$$@@@$$#                           </text>
+    <text x="4" y="32.5">                                     ;=!*##$$$$$$$$$$#*                         </text>
+    <text x="4" y="40">                                    ~:=!**##$$$$$$$$$##*                        </text>
+    <text x="4" y="47.5">                                   ~-:=!**####$$$$$$###*!                       </text>
+    <text x="4" y="55">                                   -.:=!**#############*!                       </text>
+    <text x="4" y="62.5">                                  ~,.:=!!**##########***!=                      </text>
+    <text x="4" y="70">                                 ~~,.;=!!***#########**!!=                      </text>
+    <text x="4" y="77.5">                                 :~-~;=!!*****####*****!=;                      </text>
+    <text x="4" y="85">                                 ;;::;=!!************!*!=;                      </text>
+    <text x="4" y="92.5">                                ;!**;;==!!**********!!!==:                      </text>
+    <text x="4" y="100">                                !#$~;==!!!!!******!!!!==;:                      </text>
+    <text x="4" y="107.5">                                *$$:;===!!!!!!!!!!!!!!=;;                       </text>
+    <text x="4" y="115">                               ;*#~:;===!!!!!!!!!!!====;:                       </text>
+    <text x="4" y="122.5">                               ;!!:;;====!!!!!!!!====;;:~                       </text>
+    <text x="4" y="130">                               ;;~:;;;=============;;;:~                        </text>
+    <text x="4" y="137.5">                               :~:::;;;=========;;;;:~-                         </text>
+    <text x="4" y="145">                               ~~:::;;;;;;;;;;;;;:::~-                          </text>
+    <text x="4" y="152.5">                               ~~~~::::;:;;;;;::::~~-                           </text>
+    <text x="4" y="160">                                -~~~:::::::::::~~~-,                            </text>
+    <text x="4" y="167.5">                                 ,--~~~~~~~~~~--,.                              </text>
+  </g>
+  <g class="frame f45">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                         $$$@@@@@$$                             </text>
+    <text x="4" y="25">                                      !*#$$$$@@@@$$$#                           </text>
+    <text x="4" y="32.5">                                     ;!*##$$$$$$$$$$#*                          </text>
+    <text x="4" y="40">                                     =**##$$$$$$$$$##**                         </text>
+    <text x="4" y="47.5">                                    ;=**###$$$$$$$###*!=                        </text>
+    <text x="4" y="55">                                   ~=!**#############**=                        </text>
+    <text x="4" y="62.5">                                   :=!***###########**!=                        </text>
+    <text x="4" y="70">                                   ;=!***########****!!=                        </text>
+    <text x="4" y="77.5">                                  ~=!!*****####*****!!=;                        </text>
+    <text x="4" y="85">                                  ;=!!*************!!!=;                        </text>
+    <text x="4" y="92.5">                                 -;=!!!!*********!!!!==:                        </text>
+    <text x="4" y="100">                                 :==!!!!!****!*!!!!===;:                        </text>
+    <text x="4" y="107.5">                                =;===!!!!!!!!!!!!!!==;:,                        </text>
+    <text x="4" y="115">                                :;====!!!!!!!!!!!===;:~                         </text>
+    <text x="4" y="122.5">                               ;:;;====!!!!!!=====;;:~-                         </text>
+    <text x="4" y="130">                               ::;;;============;;;:~-                          </text>
+    <text x="4" y="137.5">                              ~~:;;;;;=======;;;;;:~-                           </text>
+    <text x="4" y="145">                              ~~:::;;;;;;;;;;;;::~~-                            </text>
+    <text x="4" y="152.5">                              -~~::::::;::;::::~~-,                             </text>
+    <text x="4" y="160">                               -~~~:::::::::~~~--.                              </text>
+    <text x="4" y="167.5">                               ,--~~~~~~~~~~--,.                                </text>
+  </g>
+  <g class="frame f46">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                        #$$@@@@@$$                              </text>
+    <text x="4" y="25">                                      *#$$$$$$$$$$$#                            </text>
+    <text x="4" y="32.5">                                     *##$$$$$$$$$$##*                           </text>
+    <text x="4" y="40">                                    !*##$$$$$$$$$###*!                          </text>
+    <text x="4" y="47.5">                                   !**###$$$$$$####**!;                         </text>
+    <text x="4" y="55">                                  ;!**#############*!!;                         </text>
+    <text x="4" y="62.5">                                 :!!**##########*#**!=;                         </text>
+    <text x="4" y="70">                                 =!***#########****!==;                         </text>
+    <text x="4" y="77.5">                                :=!******##*******!!=;:                         </text>
+    <text x="4" y="85">                                ==!*************!!!=;;-                         </text>
+    <text x="4" y="92.5">                               ;=!!!**********!!!!!=;:                          </text>
+    <text x="4" y="100">                               ;=!!!!******!!!!!===;:~                          </text>
+    <text x="4" y="107.5">                              :;==!!!!!!!!!!!!!===;::                           </text>
+    <text x="4" y="115">                              ;;===!!!!!!!!!====;;::-                           </text>
+    <text x="4" y="122.5">                             :;;===============;;:~~                            </text>
+    <text x="4" y="130">                             ::;;============;;;:~~,                            </text>
+    <text x="4" y="137.5">                             ::;;;;=====;;;;;:::~-,                             </text>
+    <text x="4" y="145">                             ~::;;;;;;;;;;;:::~~-.                              </text>
+    <text x="4" y="152.5">                             ~:~::::;:::::::~~--.                               </text>
+    <text x="4" y="160">                             -~~~~:::::~~~~~--,                                 </text>
+    <text x="4" y="167.5">                              ,---~~~~~~---,..                                  </text>
+  </g>
+  <g class="frame f47">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                       $$@@@@@$$$#                              </text>
+    <text x="4" y="25">                                     #$$$$$@$$$$$##*                            </text>
+    <text x="4" y="32.5">                                    ##$$$$$$$$$$##**=                           </text>
+    <text x="4" y="40">                                  !*##$$$$$$$$####*!=                           </text>
+    <text x="4" y="47.5">                                 !*####$$$$$#####**!=                           </text>
+    <text x="4" y="55">                                =!*############***!=;~                          </text>
+    <text x="4" y="62.5">                               ;!**###########****!=;                           </text>
+    <text x="4" y="70">                               =****#######*****!!!;:                           </text>
+    <text x="4" y="77.5">                              =!********#******!!==;:                           </text>
+    <text x="4" y="85">                             ;=!!***********!!!!==;:-                           </text>
+    <text x="4" y="92.5">                             =!!!*********!!!!==;;:~                            </text>
+    <text x="4" y="100">                            ;=!!!!!!!!**!!!!!===;:~-                            </text>
+    <text x="4" y="107.5">                            ;==!!!!!!!!!!!!===;;;:~                             </text>
+    <text x="4" y="115">                           :;===!!!!!!!!!====;;:~~,                             </text>
+    <text x="4" y="122.5">                           :;;=============;;;:~-,                              </text>
+    <text x="4" y="130">                           :;;;=========;;;;::~~,                               </text>
+    <text x="4" y="137.5">                           :;;;;;;;;;;;;;;::~~-,                                </text>
+    <text x="4" y="145">                           ~::;;;;;;;;;::::~--,                                 </text>
+    <text x="4" y="152.5">                           ~~:::::::::::~~~--.                                  </text>
+    <text x="4" y="160">                            -~~~~~:~~~~~--,,.                                   </text>
+    <text x="4" y="167.5">                             -----~----,,...                                    </text>
+  </g>
+  <g class="frame f48">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                      $$@@@@@$$$$#                              </text>
+    <text x="4" y="25">                                    #$$$$$$$$$$$##*                             </text>
+    <text x="4" y="32.5">                                  ##$$$$$$$$$$###*!=                            </text>
+    <text x="4" y="40">                                 *##$$$$$$$$###***!=~                           </text>
+    <text x="4" y="47.5">                               !*####$$$$#####**!!!;~                           </text>
+    <text x="4" y="55">                              !*#############***!==;-                           </text>
+    <text x="4" y="62.5">                             =***##########***!!!=;:                            </text>
+    <text x="4" y="70">                            =!***######*****!!!==;:-                            </text>
+    <text x="4" y="77.5">                            !!************!*!!!;;:~                             </text>
+    <text x="4" y="85">                           =!!***********!!!!==;:~,                             </text>
+    <text x="4" y="92.5">                          ;=!!!****!**!!!!===;;::-                              </text>
+    <text x="4" y="100">                          ==!!!!!*!!!!!!!===;;:~-.                              </text>
+    <text x="4" y="107.5">                         :==!!!!!!!!!!=!===;;::~,                               </text>
+    <text x="4" y="115">                         ;;===!==!!!=====;;;:~~,                                </text>
+    <text x="4" y="122.5">                         ;;===========;;;;::~-,                                 </text>
+    <text x="4" y="130">                         :;;;;;===;;;;;;::~~-,.                                 </text>
+    <text x="4" y="137.5">                         :::;;;;;;;;;;:::~~-,.                                  </text>
+    <text x="4" y="145">                         ~:::;::;;::::~~~--,.                                   </text>
+    <text x="4" y="152.5">                         -~~::::::::~~---,..                                    </text>
+    <text x="4" y="160">                          --~~~~~~~~---,,..                                     </text>
+    <text x="4" y="167.5">                           ,,-------,,...                                       </text>
+  </g>
+  <g class="frame f49">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                     $$@@@@$$$$$#                               </text>
+    <text x="4" y="25">                                  #$$$$$$$$$$####**                             </text>
+    <text x="4" y="32.5">                                ##$$$$$$$$$####**!!;                            </text>
+    <text x="4" y="40">                               ##$$$$$$$$####***!!=;                            </text>
+    <text x="4" y="47.5">                             *#############***!!==;:                            </text>
+    <text x="4" y="55">                            **###########***!!!==;:-                            </text>
+    <text x="4" y="62.5">                           !**########*****!!==;;:-                             </text>
+    <text x="4" y="70">                          !****#*#*******!!!==;;:-.                             </text>
+    <text x="4" y="77.5">                         =!***********!!!!!==;:~-.                              </text>
+    <text x="4" y="85">                         !!*********!!!!!===;::~,                               </text>
+    <text x="4" y="92.5">                        =!!!*****!!!!!!!==;;:~-,                                </text>
+    <text x="4" y="100">                        =!!!!!!!!!!!!===;;;:~-,                                 </text>
+    <text x="4" y="107.5">                       ;==!!!!!!!!!===;;;::~-,.                                 </text>
+    <text x="4" y="115">                       ;============;;;:::~-,.                                  </text>
+    <text x="4" y="122.5">                       ;;========;=;;;::~~-,.                                   </text>
+    <text x="4" y="130">                       :;;;;;;;;;;;;:::~--,.                                    </text>
+    <text x="4" y="137.5">                       :::;;;;;;:::::~~--,.                                     </text>
+    <text x="4" y="145">                       ~::::::::::~~~---,.                                      </text>
+    <text x="4" y="152.5">                        ~~~~~~~~~~~--,,...                                      </text>
+    <text x="4" y="160">                         -----~----,,,...                                       </text>
+    <text x="4" y="167.5">                          .,,,,,,,.....                                         </text>
+  </g>
+  <g class="frame f50">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                   $$@@@@$$$$$$##                               </text>
+    <text x="4" y="25">                                 $$$$$$$$$$$###***!                             </text>
+    <text x="4" y="32.5">                              ##$$$$$$$$####****!==;                            </text>
+    <text x="4" y="40">                             ##$$$$$$######**!!==;::                            </text>
+    <text x="4" y="47.5">                           *############****!!==;::~                            </text>
+    <text x="4" y="55">                          *#########*#****!!!=;;:~,,                            </text>
+    <text x="4" y="62.5">                         ***######*#***!*!!==;::~,..                            </text>
+    <text x="4" y="70">                        !*************!!!==;;:~-,..                             </text>
+    <text x="4" y="77.5">                       =!***********!!!!=;;::~-...                              </text>
+    <text x="4" y="85">                       !!******!*!!!===;;:::~-....                              </text>
+    <text x="4" y="92.5">                      =!!!!!!!!!!!!===;;;:~--....                               </text>
+    <text x="4" y="100">                      =!!!!!!!!!!====;;;:~~,.~-,                                </text>
+    <text x="4" y="107.5">                     ;====!!=======;;;::~-,.=:-                                 </text>
+    <text x="4" y="115">                     ;;==========;;;:::~-,.==~                                  </text>
+    <text x="4" y="122.5">                     :;;====;;;;;;:::~~-,.=;~                                   </text>
+    <text x="4" y="130">                     ::;;;;;;;:;:::~~--,..~~                                    </text>
+    <text x="4" y="137.5">                      :::::::::::~~~--,..,-                                     </text>
+    <text x="4" y="145">                      ~~~:::::~~~~--,,...,                                      </text>
+    <text x="4" y="152.5">                       -~~~~~~-----,,....                                       </text>
+    <text x="4" y="160">                        ,-----,,,,.....                                         </text>
+    <text x="4" y="167.5">                          ...........                                           </text>
+  </g>
+  <g class="frame f51">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                  $@@@@$$$$$$####                               </text>
+    <text x="4" y="25">                               $$$$$$$$$$$####***!!                             </text>
+    <text x="4" y="32.5">                             #$$$$$$$#####***!!!==;=                            </text>
+    <text x="4" y="40">                           ##$$$$$#####****!!!==;:;:                            </text>
+    <text x="4" y="47.5">                         *##########*#**!!!!===;::~~                            </text>
+    <text x="4" y="55">                        **########*****!!===;;::~,.,                            </text>
+    <text x="4" y="62.5">                       !***###******!!!!==;;:~~,,...                            </text>
+    <text x="4" y="70">                      !***********!!!!===;::~-......                            </text>
+    <text x="4" y="77.5">                     !!*********!!!===;;::~-,......                             </text>
+    <text x="4" y="85">                     !!!!!!!!!!!!!==;;::~~-,.......                             </text>
+    <text x="4" y="92.5">                    ==!!!!!!!!!!===;;::~~-,.,.....                              </text>
+    <text x="4" y="100">                    ==!!!!!!!====;;:::~~,..;::~-,                               </text>
+    <text x="4" y="107.5">                    ==========;;;:;:~~-,,.$#!=:-                                </text>
+    <text x="4" y="115">                    ;;=======;;;:::~~--,.##*=;~                                 </text>
+    <text x="4" y="122.5">                    :;;;;;;;;;:::~~~-,..!!=;;-                                  </text>
+    <text x="4" y="130">                    :::;;:;::::~~~--,,..::::-                                   </text>
+    <text x="4" y="137.5">                    ~~:::::::~~~~--,....-:~.                                    </text>
+    <text x="4" y="145">                     -~~~~~~~~---,,.....-,                                      </text>
+    <text x="4" y="152.5">                      ,--------,,,.......                                       </text>
+    <text x="4" y="160">                        ,,,,,,,........                                         </text>
+    <text x="4" y="167.5">                           .........                                            </text>
+  </g>
+  <g class="frame f52">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                                $$@@@$$$$$$$#####                               </text>
+    <text x="4" y="25">                             $$$$$$$$$#$###********                             </text>
+    <text x="4" y="32.5">                           #$$$$$$$######**!!!!=====                            </text>
+    <text x="4" y="40">                         *##$$$######****!!!====:;;:                            </text>
+    <text x="4" y="47.5">                        ##########****!*!!==;;::~~~:~                           </text>
+    <text x="4" y="55">                       *######*****!!!!==;;;:~~-,,,--                           </text>
+    <text x="4" y="62.5">                     !**********!*!!====;;:~~-,.....,                           </text>
+    <text x="4" y="70">                     !********!!!!!==;;::~--,.......,                           </text>
+    <text x="4" y="77.5">                    !!*!**!!!!!!====;;::~-,.........                            </text>
+    <text x="4" y="85">                   =!!!!!!!!!!===;;;::~--...........                            </text>
+    <text x="4" y="92.5">                   ==!!!!!!!===;;;::~~--..~-,......                             </text>
+    <text x="4" y="100">                   ==========;;;::~~--,..$#;::~~-,                              </text>
+    <text x="4" y="107.5">                   ========;;;;:::~--,..@@$#*=;:-                               </text>
+    <text x="4" y="115">                   ;;;;;;;;;;:::~~--,..#$$#*!=;-                                </text>
+    <text x="4" y="122.5">                   :;;;;;;;:::~~~--,...=!!*!;;-                                 </text>
+    <text x="4" y="130">                   ~::::::::~~~~--,...,~;;;=:.                                  </text>
+    <text x="4" y="137.5">                    ~~~:~~~~~---,,,...,~~::-                                    </text>
+    <text x="4" y="145">                     --~~~-----,,,....,--,.                                     </text>
+    <text x="4" y="152.5">                      ,,---,,,,,.........                                       </text>
+    <text x="4" y="160">                        ..............                                          </text>
+    <text x="4" y="167.5">                             ....                                               </text>
+  </g>
+  <g class="frame f53">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                               $$@$$$$$$$$$$####                                </text>
+    <text x="4" y="25">                            $$$$$$$$$#####********                              </text>
+    <text x="4" y="32.5">                          #$$$$$$#####****!!!!==!===                            </text>
+    <text x="4" y="40">                        ###########****!!!!==;;;;;;;;                           </text>
+    <text x="4" y="47.5">                      *#######******!!==!=;;;::~~~:::                           </text>
+    <text x="4" y="55">                     **###*#*****!!!!==;;;:~~~--,,--~                           </text>
+    <text x="4" y="62.5">                    !*********!*!!==;;:::~--,.......,                           </text>
+    <text x="4" y="70">                   !******!!!!!====;;::~--,.........,                           </text>
+    <text x="4" y="77.5">                   !!*!!!!!!!!==;;::~~--,...........,                           </text>
+    <text x="4" y="85">                  =!!!!!!!!!===;;::~~-,.............,                           </text>
+    <text x="4" y="92.5">                  ===!!!=====;;;::~-,,...;-,,.....,,                            </text>
+    <text x="4" y="100">                  =========;;;::~~-,,..*###;;:~~--,                             </text>
+    <text x="4" y="107.5">                  ;;===;;;;;:::~~-,,..$@@@$##==;~-                              </text>
+    <text x="4" y="115">                  :;;;;;;;:::~~--,,...!#$$$#*!=;-                               </text>
+    <text x="4" y="122.5">                  :::::::::~~~~-,,...,:!***!==;-                                </text>
+    <text x="4" y="130">                   ~:::::~~~~---,,...,~;===;;:.                                 </text>
+    <text x="4" y="137.5">                   --~~~~~~----,,,...-~~:;::,                                   </text>
+    <text x="4" y="145">                     --------,,,,,.,,--~~-,                                     </text>
+    <text x="4" y="152.5">                      .,,,,,,,,,....,,,..                                       </text>
+    <text x="4" y="160">                         .............                                          </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f54">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $$@$$$$$$$$$$$####                                </text>
+    <text x="4" y="25">                           $$$$$$$$######*********                              </text>
+    <text x="4" y="32.5">                         #$$$$#####*#****!!!!=====!!                            </text>
+    <text x="4" y="40">                       ##########***!!!!!!===;;;;=;;=                           </text>
+    <text x="4" y="47.5">                      ######******!!!===;;;;:::~~::::;                          </text>
+    <text x="4" y="55">                    **********!!!!!==;;;:~~--------~~:                          </text>
+    <text x="4" y="62.5">                   !******!*!!!!==;;:::~--,........,-~                          </text>
+    <text x="4" y="70">                   !**!!!!!!!===;;;::~--,...........,-                          </text>
+    <text x="4" y="77.5">                  !!!!!!!!!===;;;:~~--,.............,-                          </text>
+    <text x="4" y="85">                 ;!!!!!!!====;;::~~-,.... ..........,,                          </text>
+    <text x="4" y="92.5">                 ;=========;;;::~--,...  ;;,.....,,,,                           </text>
+    <text x="4" y="100">                 ;======;;;;::~~--....  *#**;:~~~---                            </text>
+    <text x="4" y="107.5">                 ;;;;;;;;::::~~-,,...*$$@@$#*==;:~-.                            </text>
+    <text x="4" y="115">                 ::;;;;:::::~~--,,...;*#$$$$#*!=:-.                             </text>
+    <text x="4" y="122.5">                  ~:::::::~~~--,,...,:=!*##**!=;-                               </text>
+    <text x="4" y="130">                   ~~~~~~~~----,,,,,-~;==!==!=:,                                </text>
+    <text x="4" y="137.5">                    --~~-------,,,,,-~:::;=;:,                                  </text>
+    <text x="4" y="145">                     ,------,,,,,,,--~~::~-.                                    </text>
+    <text x="4" y="152.5">                       ..,,,,,,,,,,,,,,,.                                       </text>
+    <text x="4" y="160">                          ...........                                           </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f55">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $$$$$$$$$$$$$#####                                </text>
+    <text x="4" y="25">                          $$$$$$$$######**********                              </text>
+    <text x="4" y="32.5">                        #$$$$#####*#***!*!!!!!!!=!!!                            </text>
+    <text x="4" y="40">                      ########****!!!!!!!==;;;;===;;=                           </text>
+    <text x="4" y="47.5">                     *####******!!!!===;;;;::::::::;;;                          </text>
+    <text x="4" y="55">                    ***#***!*!!!!==;;:::~~--------~~:;                          </text>
+    <text x="4" y="62.5">                   ********!!!==;;;::~---,........,-~~:                         </text>
+    <text x="4" y="70">                  !!*!!!!!!===;;;::~--,............,--~                         </text>
+    <text x="4" y="77.5">                 =!!!!!!!===;;;:~~--,...............,-~                         </text>
+    <text x="4" y="85">                 ===!=====;;;::~~-,....    ........,,--                         </text>
+    <text x="4" y="92.5">                 ;=======;;:::~~-,....    ;-.....,,---                          </text>
+    <text x="4" y="100">                 ;;===;;;;;:~~~-,....   =***;:~~~~~--.                          </text>
+    <text x="4" y="107.5">                 :;;;;;;::::~~-,,...  #$$$$$#!=;;:~~.                           </text>
+    <text x="4" y="115">                 ~::::::::~~~--,,...~=*#$@@$#**!;:~,                            </text>
+    <text x="4" y="122.5">                  ~:::::~~~~~--,,,,,:;!*####*!!=:~                              </text>
+    <text x="4" y="130">                   ~~~~~~~~-----,---:;=!!*!!=!=~,                               </text>
+    <text x="4" y="137.5">                    ---------------~::;;;===;:,                                 </text>
+    <text x="4" y="145">                     .,,-----------~~:::;::-.                                   </text>
+    <text x="4" y="152.5">                        ...,,,,,,,-----,,.                                      </text>
+    <text x="4" y="160">                            .........                                           </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f56">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                             $$$$$$$$$$$$$##$$$$                                </text>
+    <text x="4" y="25">                          $$$$$$$######**********#                              </text>
+    <text x="4" y="32.5">                        #$$$#####**#***!!!!!!!!!!!!*                            </text>
+    <text x="4" y="40">                      #######****!!!!!!!=====;====;=!                           </text>
+    <text x="4" y="47.5">                     ####****!**!!===;;;;:::::::::;;;;                          </text>
+    <text x="4" y="55">                    ********!!=!==;;::~~---------~~::;;                         </text>
+    <text x="4" y="62.5">                   *****!!!!!==;;::~~--,,........,--~:;                         </text>
+    <text x="4" y="70">                  !!!!!!!!===;;::~--,..............,-~:                         </text>
+    <text x="4" y="77.5">                 =!!!!!!===;;;::~-,................,--~                         </text>
+    <text x="4" y="85">                 ===!====;;;::~--,....     ........,--~                         </text>
+    <text x="4" y="92.5">                 ;=====;;;;::~--,....      ~....,,,--~-                         </text>
+    <text x="4" y="100">                 ;;;;;;;;:::~--,....     =!!=:~~~~~~~-,                         </text>
+    <text x="4" y="107.5">                 :;;;;;;:::~~--,,..,   #$$$$#*=;;;::~,                          </text>
+    <text x="4" y="115">                  ::::::::~~~--,,..~;!*$$@@$$#*!=;:~,                           </text>
+    <text x="4" y="122.5">                  -~:::::~~~~------:;=*#$$$##**!=;~.                            </text>
+    <text x="4" y="130">                   -~~~~~~~~~~~-~~~:;=!****!!!!;:,                              </text>
+    <text x="4" y="137.5">                    .-----~~~~~~~~::;;=====!=;:,                                </text>
+    <text x="4" y="145">                      .,--------~~~::;:;;;;:-.                                  </text>
+    <text x="4" y="152.5">                         ...,,,-----~~~--,.                                     </text>
+    <text x="4" y="160">                              ........                                          </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f57">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $$$$$$$$$$$$$$$$$                                 </text>
+    <text x="4" y="25">                          $$$$$$$######******#*###                              </text>
+    <text x="4" y="32.5">                        #$$$####*****!*!!!!!!!!!!***                            </text>
+    <text x="4" y="40">                      ######****!!**!=!!====;======!!!                          </text>
+    <text x="4" y="47.5">                     ###****!**!!====;;;;:::::::;;;====                         </text>
+    <text x="4" y="55">                    *****!**!!!==;::::~---------~::;;==                         </text>
+    <text x="4" y="62.5">                   ***!!!!!!==;;::~~--,,........,-~~::;;                        </text>
+    <text x="4" y="70">                  !!!!!!!===;;::~--,..............--~::;                        </text>
+    <text x="4" y="77.5">                  !!!!!====;;:~~-,................,-~~::                        </text>
+    <text x="4" y="85">                 ;=======;;;:~~-,....      ......,,-~~~~                        </text>
+    <text x="4" y="92.5">                 ;;====;;;::~~-,,...       -....,--~~~~~                        </text>
+    <text x="4" y="100">                 :;;;;;;;:::~--,...       ;==:~~~~:::~~                         </text>
+    <text x="4" y="107.5">                  :;;;;;::::~~-,,.,~    ##$#**!=;;;::~-                         </text>
+    <text x="4" y="115">                  ~::::::::~~~---,~:=!#$$@@$$#*!=;;:~-                          </text>
+    <text x="4" y="122.5">                   ~::::::~~~~~~~~:;=!*#$$$$##*!!=;~,                           </text>
+    <text x="4" y="130">                    -~~~~~~~~~~~::;;=!**##*#*!!!=:-                             </text>
+    <text x="4" y="137.5">                     ,--~~~~~~~:::;;===!!!!!!==:~.                              </text>
+    <text x="4" y="145">                       ,,---~~~~:::;;;=====;::,                                 </text>
+    <text x="4" y="152.5">                          ..,,---~~~~~::~-,.                                    </text>
+    <text x="4" y="160">                               ........                                         </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f58">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                              $@@$$$$$$$$$$$$$$                                 </text>
+    <text x="4" y="25">                           $$$$$$########*###*####                              </text>
+    <text x="4" y="32.5">                        #$$#####*****!*!!!*!!!!!***#                            </text>
+    <text x="4" y="40">                      ######***!!**!!!!!=========!!!**                          </text>
+    <text x="4" y="47.5">                     *##***!*!!!!===;;;;;:::;;;;;===!!!                         </text>
+    <text x="4" y="55">                    ******!!!!==;;;::~~--------~::;;====                        </text>
+    <text x="4" y="62.5">                   !*!*!!!!===;::~~--,,........,-~~::;==                        </text>
+    <text x="4" y="70">                  =!!!!!!!==;::~~-,..............,-~::;;;                       </text>
+    <text x="4" y="77.5">                  =!!!!===;;::~-,,...............,--~::;:                       </text>
+    <text x="4" y="85">                  =======;;::~--.....       .....,-~~::::                       </text>
+    <text x="4" y="92.5">                  ======;;:::~-,...         ...,--~~::::~                       </text>
+    <text x="4" y="100">                  ;;;;;;;;::~--,...        ;;~~~~:::::::                        </text>
+    <text x="4" y="107.5">                  :;;;;;;:::~~--,--:     *##**!=;;;;;::-                        </text>
+    <text x="4" y="115">                   ::::::::::~~~~::=!*#$$@@$$#**!==;;:-                         </text>
+    <text x="4" y="122.5">                   -~:::::::::::::==!*#$$$@$$#**!!=;:-                          </text>
+    <text x="4" y="130">                    ,~~~:::::::;;;=!!**######*!!!=:~,                           </text>
+    <text x="4" y="137.5">                      --~~~::::;;;===!!*!!!*!!!=;~,                             </text>
+    <text x="4" y="145">                       .,--~~~:::;;====!!!===;:-.                               </text>
+    <text x="4" y="152.5">                          .,,---~~:::::::::-,.                                  </text>
+    <text x="4" y="160">                               ..........                                       </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+  <g class="frame f59">
+    <text x="4" y="10">                                                                                </text>
+    <text x="4" y="17.5">                               $@@@@$$$$$$$$$$                                  </text>
+    <text x="4" y="25">                           $$$$$$###############$#                              </text>
+    <text x="4" y="32.5">                         $$$###*******!*!*!!!*****##                            </text>
+    <text x="4" y="40">                       #####***!***!!!!!!!!!!!!!!!!***                          </text>
+    <text x="4" y="47.5">                      ##*****!!!!==;;;;;;;;;;;;====!!!!                         </text>
+    <text x="4" y="55">                    *****!!*!!==;;;:~~-------~~:;;;==!!!                        </text>
+    <text x="4" y="62.5">                   =!***!!!!==;;:~~-,,........,-~::;;====                       </text>
+    <text x="4" y="70">                   !!!!!!!==;;:~~-,.............,~~::;==;                       </text>
+    <text x="4" y="77.5">                  =!!!!!==;;;:~-,....... .......,-~~::;;;                       </text>
+    <text x="4" y="85">                  ;=!!===;;;:~--....        ....,-~~::;;;                       </text>
+    <text x="4" y="92.5">                  ;======;;::~-,...         ...,-~~::;;;;                       </text>
+    <text x="4" y="100">                  :;===;;;;::~--,.,         ;::~:::;;;;;:                       </text>
+    <text x="4" y="107.5">                   :;;;;;;;:::~~-~~:      ****!!==;;;;;:~                       </text>
+    <text x="4" y="115">                   ~:;;;;;;;:;::;;;=!*#$$$$$$##*!!===;:~                        </text>
+    <text x="4" y="122.5">                    ~::;;;;;;;;;==!!*#$$$@@$$$#*!!==;:~                         </text>
+    <text x="4" y="130">                     -~:::;;;;;===!!*##$$$$##**!!!=;~-                          </text>
+    <text x="4" y="137.5">                      ,-~::::;;;===!!!*******!!!=;:-                            </text>
+    <text x="4" y="145">                        .--~::;;;;==!!!!!!**!==:~-                              </text>
+    <text x="4" y="152.5">                           .,-~~~:::;;;;;;:::-,.                                </text>
+    <text x="4" y="160">                               ..,,,,--,,..                                     </text>
+    <text x="4" y="167.5">                                                                                </text>
+  </g>
+</svg>
