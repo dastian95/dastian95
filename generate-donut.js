@@ -46,13 +46,13 @@ const DUR   = 2.4;
 // Courier New at 10px: width ≈ 6px, lineHeight ≈ 12px
 // So 80 cols × 6 = 480px wide, 22 rows × 12 = 264px tall
 const FONT   = 10;
-const CHAR_W = 5;    // actual Courier New render width at 10px
+const CHAR_W = 6;    // Courier New at 10px
 const LINE_H = 12;
 const COLS   = 80;
 const ROWS   = 22;
-const PAD_X  = 60;  // extra left pad to center donut
+const PAD_X  = 60;  // left/right padding to center donut
 const PAD_Y  = 10;
-const SVG_W  = COLS * CHAR_W + PAD_X * 2;   // 520
+const SVG_W  = COLS * CHAR_W + PAD_X * 2;   // 600
 const SVG_H  = ROWS * LINE_H + PAD_Y * 2;   // 284
 
 const frames = [];
