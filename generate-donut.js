@@ -1,4 +1,4 @@
-// Generate animated SVG donut - SMIL animation, rainbow rows
+// Generate animated SVG donut - natural char sizing, no textLength stretch
 const fs = require('fs');
 
 function generateFrame(A, B) {
@@ -30,72 +30,63 @@ function generateFrame(A, B) {
   return lines;
 }
 
-// Rainbow colors per row
+// Rainbow colors per row - full spectrum
 const ROW_COLORS = [
-  '#ff3366','#ff6600','#ffaa00','#ffee00',
-  '#aaff00','#00ffaa','#00eeff','#aa55ff',
-  '#ff33cc','#ff3366','#ff6600','#ffaa00',
-  '#ffee00','#aaff00','#00ffaa','#00eeff',
-  '#aa55ff','#ff33cc','#ff3366','#ff6600',
-  '#ffaa00','#ffee00',
+  '#ff3366','#ff5500','#ff8800','#ffcc00',
+  '#ccff00','#44ff44','#00ffcc','#00ccff',
+  '#0088ff','#8844ff','#ff44ff','#ff3366',
+  '#ff5500','#ff8800','#ffcc00','#ccff00',
+  '#44ff44','#00ffcc','#00ccff','#0088ff',
+  '#8844ff','#ff44ff',
 ];
 
 const FRAMES = 24;
-const DUR = 2.4; // total seconds
+const DUR   = 2.4;
+
+// Courier New at 10px: width ≈ 6px, lineHeight ≈ 12px
+// So 80 cols × 6 = 480px wide, 22 rows × 12 = 264px tall
+const FONT   = 10;
+const CHAR_W = 6;
+const LINE_H = 12;
+const COLS   = 80;
+const ROWS   = 22;
+const PAD_X  = 12;
+const PAD_Y  = 10;
+const SVG_W  = COLS * CHAR_W + PAD_X * 2;   // 504
+const SVG_H  = ROWS * LINE_H + PAD_Y * 2;   // 284
+
 const frames = [];
 for (let f = 0; f < FRAMES; f++) {
   frames.push(generateFrame(f * 0.25, f * 0.10));
 }
 
-const SVG_W = 560, SVG_H = 176;
-const mX = 8, mY = 6;
-const cellH = (SVG_H - mY * 2) / 22;
-
 function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-// Build SMIL keyTimes and values for each frame
 function smilParams(fi) {
-  // visible only during frame fi's time window
-  const kts = [], vals = [];
-  for (let i = 0; i <= FRAMES; i++) {
-    const pct = +(i / FRAMES).toFixed(4);
-    kts.push(pct);
-    if (i === fi) {
-      vals.push('visible');
-    } else if (i === fi + 1) {
-      vals.push('hidden');
-    } else {
-      vals.push(i < fi || i > fi + 1 ? 'hidden' : 'hidden');
-    }
-  }
-  // simplify: only need 4 keyTimes: 0, fi/N, (fi+1)/N, 1
   const s = +(fi / FRAMES).toFixed(4);
   const e = +((fi + 1) / FRAMES).toFixed(4);
-  if (fi === 0) {
-    return { keyTimes: `0;${e};1`, values: `visible;hidden;hidden` };
-  } else if (fi === FRAMES - 1) {
-    return { keyTimes: `0;${s};1`, values: `hidden;visible;hidden` };
-  } else {
-    return { keyTimes: `0;${s};${e};1`, values: `hidden;visible;hidden;hidden` };
-  }
+  if (fi === 0)           return { kt: `0;${e};1`,     vals: `visible;hidden;hidden` };
+  if (fi === FRAMES - 1) return { kt: `0;${s};1`,     vals: `hidden;visible;hidden` };
+  return                         { kt: `0;${s};${e};1`, vals: `hidden;visible;hidden;hidden` };
 }
 
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SVG_W}" height="${SVG_H}" viewBox="0 0 ${SVG_W} ${SVG_H}">
-<rect width="100%" height="100%" fill="#0d1117" rx="12"/>
-<style>text{font-family:'Courier New',Courier,monospace;font-size:7px}</style>
+<rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+<style>text{font-family:'Courier New',Courier,monospace;font-size:${FONT}px}</style>
 `;
 
 frames.forEach((lines, fi) => {
-  const { keyTimes, values } = smilParams(fi);
+  const { kt, vals } = smilParams(fi);
   const initVis = fi === 0 ? 'visible' : 'hidden';
   svg += `<g visibility="${initVis}">
-<animate attributeName="visibility" values="${values}" keyTimes="${keyTimes}" calcMode="discrete" dur="${DUR}s" repeatCount="indefinite"/>
+<animate attributeName="visibility" values="${vals}" keyTimes="${kt}" calcMode="discrete" dur="${DUR}s" repeatCount="indefinite"/>
 `;
   lines.forEach((line, row) => {
     if (line.trim() === '') return;
-    const y = (mY + (row + 0.85) * cellH).toFixed(1);
+    const x = PAD_X;
+    const y = PAD_Y + (row + 1) * LINE_H;
     const color = ROW_COLORS[row % ROW_COLORS.length];
-    svg += `<text x="${mX}" y="${y}" fill="${color}" textLength="${SVG_W - mX * 2}" lengthAdjust="spacingAndGlyphs">${esc(line)}</text>\n`;
+    svg += `<text x="${x}" y="${y}" fill="${color}">${esc(line)}</text>\n`;
   });
   svg += `</g>\n`;
 });
@@ -104,4 +95,4 @@ svg += `</svg>`;
 
 fs.writeFileSync('donut2.svg', svg);
 const kb = (Buffer.byteLength(svg) / 1024).toFixed(1);
-console.log(`donut2.svg: ${FRAMES} frames, ${DUR}s, ${kb} KB`);
+console.log(`donut2.svg: ${SVG_W}x${SVG_H}px, ${FRAMES} frames, ${DUR}s, ${kb} KB`);
