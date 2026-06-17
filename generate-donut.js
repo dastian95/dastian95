@@ -1,4 +1,4 @@
-// Generate animated SVG of spinning ASCII donut - rainbow rows, compact
+// Generate animated SVG donut - SMIL animation, rainbow rows
 const fs = require('fs');
 
 function generateFrame(A, B) {
@@ -30,53 +30,78 @@ function generateFrame(A, B) {
   return lines;
 }
 
-// Rainbow colors per row (cycling)
+// Rainbow colors per row
 const ROW_COLORS = [
-  '#ff0055','#ff4400','#ff8800','#ffcc00',
-  '#88ff00','#00ffaa','#00ccff','#aa00ff',
-  '#ff00cc','#ff0055','#ff4400','#ff8800',
-  '#ffcc00','#88ff00','#00ffaa','#00ccff',
-  '#aa00ff','#ff00cc','#ff0055','#ff4400',
-  '#ff8800','#ffcc00',
+  '#ff3366','#ff6600','#ffaa00','#ffee00',
+  '#aaff00','#00ffaa','#00eeff','#aa55ff',
+  '#ff33cc','#ff3366','#ff6600','#ffaa00',
+  '#ffee00','#aaff00','#00ffaa','#00eeff',
+  '#aa55ff','#ff33cc','#ff3366','#ff6600',
+  '#ffaa00','#ffee00',
 ];
 
 const FRAMES = 24;
+const DUR = 2.4; // total seconds
 const frames = [];
 for (let f = 0; f < FRAMES; f++) {
   frames.push(generateFrame(f * 0.25, f * 0.10));
 }
 
-const SVG_W = 560, SVG_H = 180;
+const SVG_W = 560, SVG_H = 176;
 const mX = 8, mY = 6;
 const cellH = (SVG_H - mY * 2) / 22;
-const duration = FRAMES * 0.07; // ~1.7s
 
 function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
+// Build SMIL keyTimes and values for each frame
+function smilParams(fi) {
+  // visible only during frame fi's time window
+  const kts = [], vals = [];
+  for (let i = 0; i <= FRAMES; i++) {
+    const pct = +(i / FRAMES).toFixed(4);
+    kts.push(pct);
+    if (i === fi) {
+      vals.push('visible');
+    } else if (i === fi + 1) {
+      vals.push('hidden');
+    } else {
+      vals.push(i < fi || i > fi + 1 ? 'hidden' : 'hidden');
+    }
+  }
+  // simplify: only need 4 keyTimes: 0, fi/N, (fi+1)/N, 1
+  const s = +(fi / FRAMES).toFixed(4);
+  const e = +((fi + 1) / FRAMES).toFixed(4);
+  if (fi === 0) {
+    return { keyTimes: `0;${e};1`, values: `visible;hidden;hidden` };
+  } else if (fi === FRAMES - 1) {
+    return { keyTimes: `0;${s};1`, values: `hidden;visible;hidden` };
+  } else {
+    return { keyTimes: `0;${s};${e};1`, values: `hidden;visible;hidden;hidden` };
+  }
+}
+
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SVG_W}" height="${SVG_H}" viewBox="0 0 ${SVG_W} ${SVG_H}">
 <rect width="100%" height="100%" fill="#0d1117" rx="12"/>
-<style>.fr{visibility:hidden}
-${frames.map((_, i) => {
-  const s = (i/FRAMES*100).toFixed(1), e = ((i+1)/FRAMES*100).toFixed(1);
-  return `@keyframes a${i}{0%,${s}%{visibility:hidden}${s}%{visibility:visible}${e}%,100%{visibility:hidden}}`;
-}).join('')}
-${frames.map((_, i) => `.f${i}{animation:a${i} ${duration}s steps(1,start) infinite}`).join('')}
-</style>
+<style>text{font-family:'Courier New',Courier,monospace;font-size:7px}</style>
 `;
 
 frames.forEach((lines, fi) => {
-  svg += `<g class="fr f${fi}">`;
+  const { keyTimes, values } = smilParams(fi);
+  const initVis = fi === 0 ? 'visible' : 'hidden';
+  svg += `<g visibility="${initVis}">
+<animate attributeName="visibility" values="${values}" keyTimes="${keyTimes}" calcMode="discrete" dur="${DUR}s" repeatCount="indefinite"/>
+`;
   lines.forEach((line, row) => {
     if (line.trim() === '') return;
     const y = (mY + (row + 0.85) * cellH).toFixed(1);
     const color = ROW_COLORS[row % ROW_COLORS.length];
-    svg += `<text x="${mX}" y="${y}" fill="${color}" font-family="'Courier New',monospace" font-size="7" textLength="${SVG_W - mX*2}" lengthAdjust="spacingAndGlyphs">${esc(line)}</text>`;
+    svg += `<text x="${mX}" y="${y}" fill="${color}" textLength="${SVG_W - mX * 2}" lengthAdjust="spacingAndGlyphs">${esc(line)}</text>\n`;
   });
   svg += `</g>\n`;
 });
 
 svg += `</svg>`;
 
-fs.writeFileSync('donut.svg', svg);
+fs.writeFileSync('donut2.svg', svg);
 const kb = (Buffer.byteLength(svg) / 1024).toFixed(1);
-console.log(`donut.svg: ${FRAMES} frames, ${duration.toFixed(2)}s loop, ${kb} KB`);
+console.log(`donut2.svg: ${FRAMES} frames, ${DUR}s, ${kb} KB`);

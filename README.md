@@ -50,7 +50,7 @@ const dastian = {
 ### 🍩 Spinning Donut
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dastian95/dastian95/main/donut.svg" alt="spinning donut" width="560"/>
+  <img src="https://raw.githubusercontent.com/dastian95/dastian95/main/donut2.svg" alt="spinning donut" width="560"/>
 </div>
 
 ---
